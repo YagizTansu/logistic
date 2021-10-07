@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/favicon.ico')}}">
+    
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+
 </head>
 <body>
 <!--? Preloader Start -->
@@ -45,10 +47,11 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="header-info-left">
                                 <ul>
-                                    <li>Phone: +99 (0) 101 0000 888</li>
-                                    <li>Email: noreply@yourdomain.com</li>
+                                    <li>Telefon: +99 (0) 101 0000 888</li>
+                                    <li>E-mail: globalgate@gmail.com</li>
                                 </ul>
                             </div>
+
                             <div class="header-info-right">
                                 <ul class="header-social">
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -76,23 +79,48 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="/home">Home</a></li>
-                                            <li><a href="/about">About</a></li>
-                                            <li><a href="/services">Services</a></li>
-                                            <li><a href="/blog">Blog</a>
+                                            <li><a href="/home">ANA SAYFA</a></li>
+                                            <li><a href="/about">KURUMSAL</a>
                                                 <ul class="submenu">
-                                                    <li><a href="/blog">Blog</a></li>
-                                                    <li><a href="/blog_details">Blog Details</a></li>
-                                                    <li><a href="/elements">Element</a></li>
+                                                    <li><a href="/kurumsal">Kurumsal</a></li>
+                                                    <li><a href="/araç-filomuz">Araç Filomuz</a></li>
+                                                    <li><a href="/haberler">Haberler</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/contact">Contact</a></li>
+                                            <li><a href="/services">HİZMETLER</a>
+                                                <ul class="submenu">
+                                                    <li><a href="/karayolu-taşımacılığı">Karayolu Taşımacılığı</a></li>
+                                                    <li><a href="/havayolu-taşımacılığı">Havayolu Taşımacılığı</a></li>
+                                                    <li><a href="/denizyolu-taşımacılığı">Denizyolu Taşımacığı</a></li>
+                                                    <li><a href="/minivan-taşımacılığı">Karayolu Taşımacılığı</a></li>
+                                                    <li><a href="/proje-taşımacılığı">Proje Taşımacılığı</a></li>
+                                                    <li><a href="/depolama">Depolama</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/blog">SEKTÖREL BİLGİLER</a>
+                                                <ul class="submenu">
+                                                    <li><a href="/elements">Incoterms</a></li>
+                                                    <li><a href="/elements">Dış Ticaret Kısaltmaları</a></li>
+                                                    <li><a href="/elements">Konteyner ölçüleri</a></li>
+                                                    <li><a href="/elements">Kargo hacim hesaplama</a></li>
+                                                    <li><a href="/elements">Tır ölçüleri</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="/blog">İNSAN KAYNAKLARI</a>
+                                                <ul class="submenu">
+                                                    <li><a href="/blog">Açık Pozisyonlar</a></li>
+                                                    <li><a href="/blog_details">İş başvuru formu</a></li>
+                                                </ul>
+                                            </li>
+                                            
                                         </ul>
                                     </nav>
                                 </div>
+                                
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="/contact" class="btn header-btn">Get A Offer</a>
+                                    <a href="/contact" class="btn header-btn">İLETİŞİM /TELİF AL</a>
                                 </div>
                             </div>
                         </div>
@@ -105,5 +133,6 @@
             </div>
         </div>
     </div>
+    
     <!-- Header End -->
 </header>

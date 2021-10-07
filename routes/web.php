@@ -25,8 +25,14 @@ Route::get('/about', function () {
 Route::get('/services', function () {
     return view('services');
 });
+Route::get('/elements', function () {
+    return view('elements');
+});
 Route::get('/blog', function () {
     return view('blog');
+});
+Route::get('/blog_details', function () {
+    return view('blog_details');
 });
 Route::get('/contact', function () {
     return view('contact');
