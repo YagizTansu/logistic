@@ -21,7 +21,7 @@
     <!-- slider Area End-->
 
     <!--? Categories Area Start -->
-    <div class="categories-area  pb-5">
+    <div class="categories-area section-padding30">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -131,7 +131,7 @@ ASL ile hasar ve kaybolma gibi riskleri ASL’ ye devrederek, beklenmeyen maliye
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                <div class="blog_right_sidebar">
+                <div class="left_sidebar">
                     <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Sektörel Haberler</h3>
                             <div class="media post_item">
@@ -176,9 +176,6 @@ ASL ile hasar ve kaybolma gibi riskleri ASL’ ye devrederek, beklenmeyen maliye
             </div>
         </div>
     </div>
-
-
-
     <!-- About Area End -->
 </main>
 

@@ -22,7 +22,7 @@
         </div>
         <!-- slider Area End-->
         <!--================Blog Area =================-->
-        <section class="blog_area section-padding">
+        <section class="blog_area section-padding30">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mb-5 mb-lg-0">
@@ -160,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="blog_right_sidebar">
+                        <div class="left_sidebar">
                             <aside class="single_sidebar_widget search_widget">
                                 <form action="#">
                                     <div class="form-group">

@@ -79,38 +79,39 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="/home">ANA SAYFA</a></li>
-                                            <li><a href="/about">KURUMSAL</a>
+                                            <li><a href="/anasayfa">ANA SAYFA</a></li>
+                                            <li><a href="/kurumsal">KURUMSAL</a>
                                                 <ul class="submenu">
                                                     <li><a href="/kurumsal">Kurumsal</a></li>
-                                                    <li><a href="/araç-filomuz">Araç Filomuz</a></li>
+                                                    <li><a href="/arac-filomuz">Araç Filomuz</a></li>
                                                     <li><a href="/haberler">Haberler</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="/services">HİZMETLER</a>
                                                 <ul class="submenu">
-                                                    <li><a href="/karayolu-taşımacılığı">Karayolu Taşımacılığı</a></li>
-                                                    <li><a href="/havayolu-taşımacılığı">Havayolu Taşımacılığı</a></li>
-                                                    <li><a href="/denizyolu-taşımacılığı">Denizyolu Taşımacığı</a></li>
-                                                    <li><a href="/minivan-taşımacılığı">Karayolu Taşımacılığı</a></li>
-                                                    <li><a href="/proje-taşımacılığı">Proje Taşımacılığı</a></li>
+                                                    <li><a href="/karayolu">Karayolu Taşımacılığı</a></li>
+                                                    <li><a href="/havayolu">Havayolu Taşımacılığı</a></li>
+                                                    <li><a href="/denizyolu">Denizyolu Taşımacığı</a></li>
+                                                    <li><a href="/minivan">Minivan Taşımacılığı</a></li>
+                                                    <li><a href="/proje">Proje Taşımacılığı</a></li>
                                                     <li><a href="/depolama">Depolama</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/blog">SEKTÖREL BİLGİLER</a>
+                                            <li><a href="/incoterms">SEKTÖREL BİLGİLER</a>
                                                 <ul class="submenu">
-                                                    <li><a href="/elements">Incoterms</a></li>
-                                                    <li><a href="/elements">Dış Ticaret Kısaltmaları</a></li>
-                                                    <li><a href="/elements">Konteyner ölçüleri</a></li>
-                                                    <li><a href="/elements">Kargo hacim hesaplama</a></li>
-                                                    <li><a href="/elements">Tır ölçüleri</a></li>
+                                                    <li><a href="incoterms">Incoterms</a></li>
+                                                    <li><a href="/dis-ticaret-kisatlmalari">Dış Ticaret Kısaltmaları</a></li>
+                                                    <li><a href="/uld-ölcüleri">ULD ölçüleri</a></li>
+                                                    <li><a href="/konteyner-ölcüleri">Konteyner ölçüleri</a></li>
+                                                    <li><a href="/kargo-hacim-hesaplama">Kargo hacim hesaplama</a></li>
+                                                    <li><a href="/tir-ölcüleri">Tır ölçüleri</a></li>
 
                                                 </ul>
                                             </li>
-                                            <li><a href="/blog">İNSAN KAYNAKLARI</a>
+                                            <li><a href="/acik-pozisyonlar">İNSAN KAYNAKLARI</a>
                                                 <ul class="submenu">
-                                                    <li><a href="/blog">Açık Pozisyonlar</a></li>
-                                                    <li><a href="/blog_details">İş başvuru formu</a></li>
+                                                    <li><a href="/acik-pozisyonlar">Açık Pozisyonlar</a></li>
+                                                    <li><a href="/is-basvuru-formu">İş başvuru formu</a></li>
                                                 </ul>
                                             </li>
                                             
@@ -120,7 +121,7 @@
                                 
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="/contact" class="btn header-btn">İLETİŞİM /TELİF AL</a>
+                                    <a href="/iletisim" class="btn header-btn">İLETİŞİM /TEKLİF AL</a>
                                 </div>
                             </div>
                         </div>
