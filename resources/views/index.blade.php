@@ -1,33 +1,47 @@
-
 @include('header')
-<main>
-    <!--? slider Area Start-->
-    <div class="slider-area">
-        <div class="slider-active">
-            <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-9 col-lg-9">
-                            <div class="hero__caption">
-                                <h1 >Güvenilir <span>Lojisitk</span> çözümleri!</h1>
-                            </div>
+<div class="owl-carousel owl-theme">
+    <div class="owl-slide d-flex align-items-center cover" style="background-image: url('assets/img/about/cur2.jpg');">
+        <div class="container">
+            <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-6 static">
+                    <div class="owl-slide-animated owl-slide-text">
+                        <h1>
+                            DENEME
+                        </h1>
+                        <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                        EFWEFWEKFWŞEFLWEŞLFWŞLFSKDFSŞLDFSKDFSDF
                         </div>
-                    </div>
+                        <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="" role="button">BUTTON</a>
+                    </div><!-- /owl-slide-text -->
                 </div>
             </div>
         </div>
-    </div>
-    <!-- slider Area End-->
-
-    <!--? Categories Area Start -->
-    <div class="categories-area section-padding30">
+    </div><!-- /slide1 -->
+    <div class="owl-slide d-flex align-items-center cover" style="background-image: url('assets/img/about/cur1.jpg');">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Section Tittle -->
+            <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-6 static">
+                    <div class="owl-slide-text">
+                        <h1 class="owl-slide-animated owl-slide-title">
+                            
+                        </h1>
+                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                    <!-- content here -->
+                    </div>
+                    <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="" role="button"><!-- content here --></a>
+                    </div><!-- /owl-slide-text -->
                 </div>
             </div>
+        </div>
+    </div><!-- /slide1 -->
+</div>
+<main>
+    <!--? Categories Area Start -->
+    <div class="categories-area section-padding10 bg-gray">
+        <div class="container">
+        <div class="section-tittle text-center mb-70">
+                            <h2>HİZMETLERİMİZ</h2>
+                        </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50" >

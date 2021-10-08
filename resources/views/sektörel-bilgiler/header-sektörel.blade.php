@@ -2,7 +2,7 @@
     <main>
         <!--? slider Area Start-->
         <div class="slider-area ">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
+            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/gallery/about1.png">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -26,7 +26,6 @@
             <div class="container">
                 <div class="row">
                 <div class="col-lg-3 col-md-12">
-                    
                 <div class="left_sidebar">
                 <aside class="single_sidebar_widget post_category_widget">
                                 <h3 class="widget_title">Sektörel Bilgililer</h3>

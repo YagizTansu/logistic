@@ -3,16 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Transportation HTML-5 Template </title>
+    <title>Global Gate Lojistik. Uluslararası kara, hava ve deniz yolu taşımacılığı.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/favicon.ico')}}">
-    
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="{{asset('assets/owl-carousel/assets/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/owl-carousel/assets/owl.theme.default.min.css')}}">
+
+    
     <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
@@ -22,6 +25,13 @@
     <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    
+
 
 </head>
 <body>
@@ -43,15 +53,18 @@
         <div class="main-header ">
             <div class="header-top d-none d-lg-block">
                 <div class="container">
-                    <div class="col-xl-12">
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <div class="header-info-left">
-                                <ul>
-                                    <li>Telefon: +99 (0) 101 0000 888</li>
-                                    <li>E-mail: globalgate@gmail.com</li>
-                                </ul>
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left">
+                                    <ul>
+                                        <li>Telefon: +99 (0) 101 0000 888</li>
+                                        <li>E-mail: globalgate@gmail.com</li>
+                                    </ul>
+                                </div>
                             </div>
-
+                        </div>
+                        <div class="col">
                             <div class="header-info-right">
                                 <ul class="header-social">
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -121,7 +134,7 @@
                                 
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="/iletisim" class="btn header-btn">İLETİŞİM /TEKLİF AL</a>
+                                    <a href="/iletisim" class="btn-style header-btn">İLETİŞİM /TEKLİF AL</a>
                                 </div>
                             </div>
                         </div>
