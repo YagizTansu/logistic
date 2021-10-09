@@ -50,7 +50,7 @@
 <header>
     <!-- Header Start -->
     <div class="header-area">
-        <div class="main-header ">
+        <div class="main-header">
             <div class="header-top d-none d-lg-block">
                 <div class="container">
                     <div class="row">
@@ -83,11 +83,11 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="/home"><img src="{{asset('assets/img/logo/logo.png')}}" alt=""></a>
+                                <a href="/anasayfa"><img width="250" height="150"  src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
-                            <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                            <div class=" mr-20 menu-wrapper  d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
@@ -100,7 +100,7 @@
                                                     <li><a href="/haberler">Haberler</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/services">HİZMETLER</a>
+                                            <li><a href="/karayolu">HİZMETLER</a>
                                                 <ul class="submenu">
                                                     <li><a href="/karayolu">Karayolu Taşımacılığı</a></li>
                                                     <li><a href="/havayolu">Havayolu Taşımacılığı</a></li>

@@ -67,6 +67,10 @@ Route::get('/is-basvuru-formu', function () {
     return view('insan-kaynaklari/is-basvuru-formu');
 });
 
+Route::get('/iletisim', function () {
+    return view('iletisim');
+});
+
 
 Route::get('/about', function () {
     return view('about');
@@ -83,6 +87,4 @@ Route::get('/blog', function () {
 Route::get('/blog_details', function () {
     return view('blog_details');
 });
-Route::get('/iletisim', function () {
-    return view('iletisim');
-});
+

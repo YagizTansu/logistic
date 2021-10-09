@@ -1,3 +1,6 @@
+@section('title')
+    Havayolları
+@endsection
 @include('header')
     <main>
         <!--? slider Area Start-->

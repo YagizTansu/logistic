@@ -1,19 +1,21 @@
 @include('header')
     <main>
         <!--? slider Area Start-->
-        <div class="slider-area ">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
+        <div class="slider-area">
+            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/about/ship3.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="hero-cap">
-                                <h2>Araç Filomuz</h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
-                                        <li class="breadcrumb-item"><a href="#">Araç Filomuz</a></li>
-                                    </ol>
-                                </nav>
+                            <div class="pt-80">
+                                <div class="hero-cap">
+                                    <h2>Kurumsal</h2>
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
+                                            <li class="breadcrumb-item"><a href="#">Kurumsal</a></li>
+                                        </ol>
+                                    </nav>
+                                </div>
                             </div>
                         </div>
                     </div>

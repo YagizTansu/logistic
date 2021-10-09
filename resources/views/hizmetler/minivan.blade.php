@@ -1,3 +1,6 @@
+@section('title')
+    Minivan
+@endsection
 @include('header')
     <main>
         <!--? slider Area Start-->

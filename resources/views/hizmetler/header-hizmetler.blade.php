@@ -3,15 +3,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
+                <div class="pt-80"> 
                     <div class="hero-cap">
-                        <h2>Hizmetler</h2>
+                        <h2>@yield('title')</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
                                 <li class="breadcrumb-item"><a href="#">Hizmetler</a></li>
+                                <li class="breadcrumb-item"><a href="#">@yield('title')</a></li>
                             </ol>
                         </nav>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -31,32 +34,32 @@
                                 <ul class="list cat-list">
                                 
                                     <li>
-                                        <a href="/havayolları" class="d-flex">
+                                        <a href="/karayolu" class="d-flex">
                                             <p>Karayolları Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="/havayolu" class="d-flex">
                                             <p>Havayolları Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>    
-                                        <a href="#" class="d-flex">
+                                        <a href="denizyolu" class="d-flex">
                                             <p>Denizyolları Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="/minivan" class="d-flex">
                                             <p>Minivan Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="proje" class="d-flex">
                                             <p>Proje Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="depolama" class="d-flex">
                                             <p>Depolama</p>
                                         </a>
                                     </li>

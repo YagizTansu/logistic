@@ -41,7 +41,7 @@
                             </div>
                             <div class="cat-cap">
                                 <h5><a href="services.blade.php">Land Transport</a></h5>
-                                <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
+                                <p>Mobil iletişim sistemleri ile donatılmış geniş araç filosu, gelişmiş bilgi teknolojileriyle güçlendirilmiş altyapısı ve uzman personeliyle Global Gate Lojistik, kaliteli hizmet ilkesi doğrultusunda müşterilerine komple araç ve parsiyel taşıma hizmeti vermektedir.</p>
                             </div>
                         </div>
                     </div>

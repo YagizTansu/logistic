@@ -10,8 +10,8 @@
                                 <h2>Blog</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.blade.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Blog</a></li> 
                                     </ol>
                                 </nav>
                             </div>
@@ -22,14 +22,14 @@
         </div>
         <!-- slider Area End-->
         <!--================Blog Area =================-->
-        <section class="blog_area section-padding30">
+        <section class="blog_area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mb-5 mb-lg-0">
                         <div class="blog_left_sidebar">
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="../../public/assets/img/blog/single_blog_1.png" alt="">
+                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
                                     <a href="#" class="blog_item_date">
                                         <h3>15</h3>
                                         <p>Jan</p>
@@ -37,7 +37,7 @@
                                 </div>
 
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.blade.php">
+                                    <a class="d-inline-block" href="blog_details.html">
                                         <h2>Google inks pact for new 35-storey office</h2>
                                     </a>
                                     <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -51,7 +51,7 @@
 
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="../../public/assets/img/blog/single_blog_2.png" alt="">
+                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.png" alt="">
                                     <a href="#" class="blog_item_date">
                                         <h3>15</h3>
                                         <p>Jan</p>
@@ -59,7 +59,7 @@
                                 </div>
 
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.blade.php">
+                                    <a class="d-inline-block" href="blog_details.html">
                                         <h2>Google inks pact for new 35-storey office</h2>
                                     </a>
                                     <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -73,7 +73,7 @@
 
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="../../public/assets/img/blog/single_blog_3.png" alt="">
+                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.png" alt="">
                                     <a href="#" class="blog_item_date">
                                         <h3>15</h3>
                                         <p>Jan</p>
@@ -81,7 +81,7 @@
                                 </div>
 
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.blade.php">
+                                    <a class="d-inline-block" href="blog_details.html">
                                         <h2>Google inks pact for new 35-storey office</h2>
                                     </a>
                                     <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -95,7 +95,7 @@
 
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="../../public/assets/img/blog/single_blog_4.png" alt="">
+                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_4.png" alt="">
                                     <a href="#" class="blog_item_date">
                                         <h3>15</h3>
                                         <p>Jan</p>
@@ -103,7 +103,7 @@
                                 </div>
 
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.blade.php">
+                                    <a class="d-inline-block" href="blog_details.html">
                                         <h2>Google inks pact for new 35-storey office</h2>
                                     </a>
                                     <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -117,7 +117,7 @@
 
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="../../public/assets/img/blog/single_blog_5.png" alt="">
+                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_5.png" alt="">
                                     <a href="#" class="blog_item_date">
                                         <h3>15</h3>
                                         <p>Jan</p>
@@ -125,7 +125,7 @@
                                 </div>
 
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.blade.php">
+                                    <a class="d-inline-block" href="blog_details.html">
                                         <h2>Google inks pact for new 35-storey office</h2>
                                     </a>
                                     <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -160,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="left_sidebar">
+                        <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget search_widget">
                                 <form action="#">
                                     <div class="form-group">
@@ -223,36 +223,36 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Recent Post</h3>
                                 <div class="media post_item">
-                                    <img src="../../public/assets/img/post/post_1.png" alt="post">
+                                    <img src="assets/img/post/post_1.png" alt="post">
                                     <div class="media-body">
-                                        <a href="blog_details.blade.php">
+                                        <a href="blog_details.html">
                                             <h3>From life was you fish...</h3>
                                         </a>
                                         <p>January 12, 2019</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="../../public/assets/img/post/post_2.png" alt="post">
+                                    <img src="assets/img/post/post_2.png" alt="post">
                                     <div class="media-body">
-                                        <a href="blog_details.blade.php">
+                                        <a href="blog_details.html">
                                             <h3>The Amazing Hubble</h3>
                                         </a>
                                         <p>02 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="../../public/assets/img/post/post_3.png" alt="post">
+                                    <img src="assets/img/post/post_3.png" alt="post">
                                     <div class="media-body">
-                                        <a href="blog_details.blade.php">
+                                        <a href="blog_details.html">
                                             <h3>Astronomy Or Astrology</h3>
                                         </a>
                                         <p>03 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="../../public/assets/img/post/post_4.png" alt="post">
+                                    <img src="assets/img/post/post_4.png" alt="post">
                                     <div class="media-body">
-                                        <a href="blog_details.blade.php">
+                                        <a href="blog_details.html">
                                             <h3>Asteroids telescope</h3>
                                         </a>
                                         <p>01 Hours ago</p>
@@ -294,32 +294,32 @@
                                 <ul class="instagram_row flex-wrap">
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="../../public/assets/img/post/post_5.png" alt="">
+                                            <img class="img-fluid" src="assets/img/post/post_5.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="../../public/assets/img/post/post_6.png" alt="">
+                                            <img class="img-fluid" src="assets/img/post/post_6.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="../../public/assets/img/post/post_7.png" alt="">
+                                            <img class="img-fluid" src="assets/img/post/post_7.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="../../public/assets/img/post/post_8.png" alt="">
+                                            <img class="img-fluid" src="assets/img/post/post_8.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="../../public/assets/img/post/post_9.png" alt="">
+                                            <img class="img-fluid" src="assets/img/post/post_9.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="../../public/assets/img/post/post_10.png" alt="">
+                                            <img class="img-fluid" src="assets/img/post/post_10.png" alt="">
                                         </a>
                                     </li>
                                 </ul>
@@ -345,5 +345,4 @@
         </section>
         <!--================Blog Area =================-->
     </main>
-
 @include('footer')

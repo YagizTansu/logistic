@@ -6,14 +6,16 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="hero-cap">
-                                <h2>İnsan Kaynakları</h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
-                                        <li class="breadcrumb-item"><a href="#">nsan Kaynakları</a></li>
-                                    </ol>
-                                </nav>
+                            <div class="pt-80">
+                                <div class="hero-cap">
+                                    <h2>İnsan Kaynakları</h2>
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
+                                            <li class="breadcrumb-item"><a href="#">nsan Kaynakları</a></li>
+                                        </ol>
+                                    </nav>
+                                </div>
                             </div>
                         </div>
                     </div>

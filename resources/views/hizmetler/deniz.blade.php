@@ -1,3 +1,6 @@
+@section('title')
+Denizyolları
+@endsection
 @include('header')
     <main>
         <!--? slider Area Start-->
