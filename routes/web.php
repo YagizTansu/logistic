@@ -71,7 +71,16 @@ Route::get('/iletisim', function () {
     return view('iletisim');
 });
 
+//Admin
 
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
+
+
+
+//old link
 Route::get('/about', function () {
     return view('about');
 });

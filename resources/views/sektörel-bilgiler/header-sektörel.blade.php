@@ -11,6 +11,7 @@
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
+                                            <li class="breadcrumb-item"><a href="/anasayfa">Sektörel Bilgiler</a></li>
                                             <li class="breadcrumb-item"><a href="/">@yield('title')</a></li>
                                         </ol>
                                     </nav>
