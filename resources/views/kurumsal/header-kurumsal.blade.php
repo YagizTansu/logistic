@@ -6,17 +6,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="pt-80">
-                                <div class="hero-cap">
-                                    <h2>Kurumsal</h2>
+                                <div class="hero-cap mt-200">
+                                    <h2>@yield('title')</h2>
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
-                                            <li class="breadcrumb-item"><a href="#">Kurumsal</a></li>
+                                            <li class="breadcrumb-item"><a href="#">@yield('title')</a></li>
                                         </ol>
                                     </nav>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -24,7 +22,7 @@
         </div>
         <!-- slider Area End-->
         <!--? About Area Start -->
-        <div class="about-low-area section-padding30">
+        <div class="about-low-area section-padding">
             <div class="container">
                 <div class="row">
                 <div class="col-lg-3 col-md-12">
@@ -34,17 +32,17 @@
                                 <h3 class="widget_title">Kurumsal</h3>
                                 <ul class="list cat-list">
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="/kurumsal" class="d-flex">
                                             <p>KURUMSAL</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="/arac-filomuz" class="d-flex">
                                             <p>ARAÇ FİLOMUZ</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="d-flex">
+                                        <a href="/haberler" class="d-flex">
                                             <p>HABERLER</p>
                                         </a>
                                     </li>

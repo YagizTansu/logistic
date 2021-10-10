@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome-all.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
@@ -83,11 +82,11 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="/anasayfa"><img width="250" height="150"  src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
+                                <a href="/anasayfa"><img  src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-xl-10 col-lg-10">
-                            <div class=" mr-20 menu-wrapper  d-flex align-items-center justify-content-end">
+                        <div class="col-xl-10 col-lg-10 col-md-12">
+                            <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
@@ -113,21 +112,14 @@
                                             <li><a href="/incoterms">SEKTÖREL BİLGİLER</a>
                                                 <ul class="submenu">
                                                     <li><a href="incoterms">Incoterms</a></li>
-                                                    <li><a href="/dis-ticaret-kisatlmalari">Dış Ticaret Kısaltmaları</a></li>
+                                                    <li><a href="/dis-ticaret-kisaltmalari">Dış Ticaret Kısaltmaları</a></li>
                                                     <li><a href="/uld-ölcüleri">ULD ölçüleri</a></li>
                                                     <li><a href="/konteyner-ölcüleri">Konteyner ölçüleri</a></li>
                                                     <li><a href="/kargo-hacim-hesaplama">Kargo hacim hesaplama</a></li>
                                                     <li><a href="/tir-ölcüleri">Tır ölçüleri</a></li>
 
                                                 </ul>
-                                            </li>
-                                            <li><a href="/acik-pozisyonlar">İNSAN KAYNAKLARI</a>
-                                                <ul class="submenu">
-                                                    <li><a href="/acik-pozisyonlar">Açık Pozisyonlar</a></li>
-                                                    <li><a href="/is-basvuru-formu">İş başvuru formu</a></li>
-                                                </ul>
-                                            </li>
-                                            
+                                            </li>                                            
                                         </ul>
                                     </nav>
                                 </div>

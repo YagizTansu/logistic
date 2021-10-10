@@ -1,3 +1,7 @@
+@section('title')
+Konteyner Ölçüleri
+@endsection
+
 @include('sektörel-bilgiler.header-sektörel')
 <div class="col-lg-9 col-md-12">
                         <div class="about-caption mb-50">

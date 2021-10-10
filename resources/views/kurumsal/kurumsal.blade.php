@@ -1,3 +1,7 @@
+@section('title')
+    Kurumsal
+@endsection
+
 @include('kurumsal.header-kurumsal')
                     <div class="col-lg-9 col-md-12">
                         <div class="about-caption mb-50">

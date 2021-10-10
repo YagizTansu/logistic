@@ -1,10 +1,9 @@
 <div class="slider-area ">
-    <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
+    <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/about/ship3.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                <div class="pt-80"> 
-                    <div class="hero-cap">
+                    <div class="hero-cap mt-200">
                         <h2>@yield('title')</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
@@ -15,7 +14,6 @@
                         </nav>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
     </div>
@@ -23,7 +21,7 @@
 
         <!-- slider Area End-->
         <!--? About Area Start -->
-        <div class="about-low-area section-padding30">
+        <div class="about-low-area section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-12">

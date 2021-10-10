@@ -43,7 +43,7 @@ Route::get('/depolama', function () {
 Route::get('/incoterms', function () {
     return view('sektörel-bilgiler/incoterms');
 });
-Route::get('/dis-ticaret-kisatlmalari', function () {
+Route::get('/dis-ticaret-kisaltmalari', function () {
     return view('sektörel-bilgiler/dis-ticaret-kisaltmalari');
 });
 Route::get('/uld-ölcüleri', function () {

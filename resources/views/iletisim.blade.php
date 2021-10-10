@@ -2,11 +2,11 @@
     <main>
         <!--? slider Area Start-->
         <div class="slider-area ">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
+            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/about/ship2.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="hero-cap">
+                            <div class="hero-cap pt-200">
                                 <h2>İletişim</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
@@ -22,7 +22,7 @@
         </div>
         <!-- slider Area End-->
         <!-- ================ contact section start ================= -->
-        <section class="contact-section">
+        <section class="contact-section section-padding">
             <div class="container">
                 <div class="d-none d-sm-block mb-5 pb-4">
 

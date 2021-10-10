@@ -1,3 +1,7 @@
+@section('title')
+Araç Filomuz
+@endsection
+
 @include('kurumsal.header-kurumsal')
 
                     <div class="col-lg-9 col-md-12">
