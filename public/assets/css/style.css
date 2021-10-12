@@ -928,7 +928,7 @@ li {
 }
 
 .header-sticky.sticky-bar {
-    background: #353a44;
+    background: #383e42;
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
@@ -4863,4 +4863,8 @@ img {
     .container {
         width: 450px
     }
+}
+
+.bg-image {
+    background-image: url('../img/about/ship3.jpg');
 }

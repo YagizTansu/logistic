@@ -1,5 +1,48 @@
 @include('header')
 
+        <!-- Carousel wrapper -->
+        <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+            </ol>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <div class="mask" style="background-color: rgba(0.2, 0, 0, 0);">
+
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="mask" style="background: linear-gradient(45deg,rgba(29, 236, 197, 0.7),rgba(91, 14, 214, 0.7) 100%);">
+                    </div>
+                </div>
+            </div>
+            <!-- Inner -->
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
 <main>
     <!--? Categories Area Start -->
     <div class="categories-area section-padding10 bg-gray">
@@ -102,7 +145,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <div class="araçlarımız-img">
-                            <img src="assets/img/gallery/about1.png" alt="">
+                            <img src="assets/img/logo/logo2.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12">

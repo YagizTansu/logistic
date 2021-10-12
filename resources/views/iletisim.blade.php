@@ -2,7 +2,7 @@
     <main>
         <!--? slider Area Start-->
         <div class="slider-area ">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/about/ship2.jpg">
+            <div class="single-slider hero-overly slider-height2 d-flex align-items-center bg-image">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
