@@ -53,10 +53,11 @@
 
 <!-- Jquery Mobile Menu -->
 <script src="{{asset('assets/js/jquery.slicknav.min.js')}}"></script>
+
 <!-- Jquery Slick -->
 <script src="{{asset('assets/js/slick.min.js')}}"></script>
-<!--main Js -->
 
+<!--main Js -->
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/mdb.min.js')}}"></script>
 </body>
