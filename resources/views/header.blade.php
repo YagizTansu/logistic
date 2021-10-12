@@ -10,12 +10,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/favicon.ico')}}">
 
     <!-- CSS here -->
-
-    <!-- owl carousel css -->
-    <link rel="stylesheet" href="{{asset('assets/owl-carousel/assets/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/owl-carousel/assets/owl.theme.default.min.css')}}">
-
-    
     <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
@@ -24,7 +18,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-    
+   
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
@@ -126,7 +120,7 @@
                                 
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="/iletisim" class="btn-style header-btn">İLETİŞİM /TEKLİF AL</a>
+                                    <a href="/iletisim" class="btn-style">İLETİŞİM/TEKLİF AL</a>
                                 </div>
                             </div>
                         </div>
@@ -139,6 +133,48 @@
             </div>
         </div>
     </div>
-    
-    <!-- Header End -->
+
+        <!-- Carousel wrapper -->
+        <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+            </ol>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <div class="mask" style="background-color: rgba(0.2, 0, 0, 0);">
+
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="mask" style="background: linear-gradient(45deg,rgba(29, 236, 197, 0.7),rgba(91, 14, 214, 0.7) 100%);">
+                    </div>
+                </div>
+            </div>
+            <!-- Inner -->
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
 </header>

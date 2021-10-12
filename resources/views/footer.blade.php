@@ -58,6 +58,6 @@
 <!--main Js -->
 
 <script src="{{asset('assets/js/main.js')}}"></script>
-<script src="{{asset('assets/owl-carousel/owl.carousel.min.js')}}"></script>
+<script src="{{asset('assets/js/mdb.min.js')}}"></script>
 </body>
 </html>

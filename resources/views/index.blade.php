@@ -1,37 +1,4 @@
 @include('header')
-<div class="owl-carousel owl-theme">
-    <div class="owl-slide d-flex align-items-center cover" style="background-image: url('assets/img/about/PLANE.png');">
-        <div class="container">
-            <div class="row justify-content-center justify-content-md-start">
-                <div class="col-10 col-md-6 static">
-                    <div class="owl-slide-animated owl-slide-text">
-                    </div><!-- /owl-slide-text -->
-                </div>
-            </div>
-        </div>
-    </div><!-- /slide1 -->
-    <div class="owl-slide d-flex align-items-center cover" style="background-image: url('assets/img/about/ship3.jpg');">
-        <div class="container">
-            <div class="row justify-content-center justify-content-md-start">
-                <div class="col-10 col-md-6 static">
-                    <div class="owl-slide-animated owl-slide-text">
-
-                    </div><!-- /owl-slide-text -->
-                </div>
-            </div>
-        </div>
-    </div><!-- /slide1 -->
-    <div class="owl-slide d-flex align-items-center cover" style="background-image: url('assets/img/about/cur1.jpg');">
-        <div class="container">
-            <div class="row justify-content-center justify-content-md-start">
-                <div class="col-10 col-md-6 static">
-                    <div class="owl-slide-animated owl-slide-text">
-                    </div><!-- /owl-slide-text -->
-                </div>
-            </div>
-        </div>
-    </div><!-- /slide1 -->
-</div>
 
 <main>
     <!--? Categories Area Start -->
