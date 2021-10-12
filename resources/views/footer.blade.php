@@ -9,7 +9,7 @@
                         <div class="single-footer-caption mb-50">
                             <!-- logo -->
                             <div class="footer-logo">
-                                <a href="index.blade.php"><img src="{{asset('assets/img/logo/logo2_footer.png')}}" alt=""></a>
+                                <a href="index.blade.php"><img src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
                             </div>
                             <!-- Footer Social -->
                             <div class="footer-social ">
