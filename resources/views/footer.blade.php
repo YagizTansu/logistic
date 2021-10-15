@@ -1,47 +1,103 @@
-<footer>
-    <!--? Footer Start-->
-    <div class="footer-area footer-bg">
-        <div class="container">
-            <div class="footer-top footer-padding">
-                <!-- Footer Menu -->
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <!-- logo -->
-                            <div class="footer-logo">
-                                <a href="index.blade.php"><img src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
-                            </div>
-                            <!-- Footer Social -->
-                            <div class="footer-social ">
-                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-9 col-lg-9 col-md-6 col-sm-6">
-                        <p>LOJİSİTK operasyonlarınız İÇİN yaratıcı VE güvenİLİR çözüm Ortağınız.</p>
-                        <!-- Scroll Up -->
-                        <div id="back-top" >
-                            <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+
+    <!--? slogan Start-->
+
+    <div class="slogan-area ">
+        <div class="effect">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <div class="slogan-logo  d-flex justify-content-center">
+                            <a href="index.blade.php"><img class="img-fluid" alt="Responsive image" src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-12">
-                        <div class="footer-text text-center">
-                            <p>Copyright 2021 GLOBAL-GATE DEPOLAMA LOJİSTİK SAN. VE TİC.A.Ş. All Rights Reserved</p>
-                        </div>
+                <div class="row pb-5">
+                    <div class="col d-flex justify-content-center ">
+                        <p class="text-slogan">LOJİSTİK OPERASYONLARINIZ İÇİN GÜVENİLİR ÇÖZÜM ORTAĞINIZ</p>
                     </div>
                 </div>
+
+                        <!-- slogan Menu -->
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-9 col-lg-9 col-md-6 col-sm-6">
+                            <div id="back-top" >
+                                <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>          
             </div>
         </div>
     </div>
-    <!-- Footer End-->
+                <!-- slogan Bottom -->
+    <!-- slogan End-->
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>KURUMSAL</h4>
+          <ul class="list-unstyled">
+            <li><a href="/kurumsal">Kurumsal</a></li>
+            <li><a href="/arac-filomuz">Araç filomuz</a></li>
+            <li><a href="/haberler">Haberler</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Hizmetler</h4>
+          <ul class="list-unstyled">
+            <li><a href="/karayolu">Karayolu Taşımacılığı</a></li>
+            <li><a href="/denizyolu">Havayolu Taşıumacılığı</a></li>
+            <li><a href="/havayolu">Denizyolu Taşımacılığı</a></li>
+            <li><a href="proje">Proje Taşımacılığı</a></li>
+            <li><a href="/minivan">Minivan Taşımacılığı</a></li>
+            <li><a href="/depolama">Depolama</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Sektörel Bilgiler</h4>
+          <ul class="list-unstyled">
+                <li><a href="incoterms">Incoterms</a></li>
+                <li><a href="/dis-ticaret-kisaltmalari">Dış Ticaret Kısaltmaları</a></li>
+                <li><a href="/uld-ölcüleri">ULD ölçüleri</a></li>
+                <li><a href="/konteyner-ölcüleri">Konteyner ölçüleri</a></li>
+                <li><a href="/kargo-hacim-hesaplama">Kargo hacim hesaplama</a></li>
+                <li><a href="/tir-ölcüleri">Tır ölçüleri</a></li>              
+          </ul>
+        </div>
+      </div>
+    	<div class="col-md-3">
+        <div class="footer-pad">
+    		<h4 class="pb-3">İletişim</h4>
+            <ul class="social-network social-circle">
+                <li>                        
+                    <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                    <h4>+1 253 565 2365</h4>
+                </li>
+                <li>
+                    <span class="contact-info__icon"><i class="ti-email"></i></span>     
+                    <h4>globalgate@gmail.com</h4>
+                </li>
+            </ul>
+        </div>				
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-12">
+			<p class="text-center" style="color: white;">Copyright 2021 - GLOBAL GATE Logistic.  All rights reserved.</p>
+		</div>
+	</div>
+
+
+  </div>
+  </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>

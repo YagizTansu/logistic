@@ -10,7 +10,6 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
-
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome-all.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
@@ -41,17 +40,17 @@
             <div class="header-top d-none d-lg-block">
                 <div class="container">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9 col-md-6 col-sm-6">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>
-                                        <li>Telefon: +99 (0) 101 0000 888</li>
-                                        <li>E-mail: globalgate@gmail.com</li>
+                                        <li><span class="contact-info__icon "><i class="ti-tablet"></i></span>: +99 (0) 101 0000 888</li>
+                                        <li><span class="contact-info__icon"><i class="ti-email"></i></span> globalgate@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="header-info-right">
                                 <ul class="header-social">
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -64,12 +63,12 @@
                     </div>
                 </div>
             </div>
-            <div class="header-bottom  header-sticky">
+            <div class="header-bottom  ">
                 <div class="container">
                     <div class="row align-items-center">
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
-                            <div class="logo">
+                            <div class="logo logo-padding">
                                 <a href="/anasayfa"><img  src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
                             </div>
                         </div>

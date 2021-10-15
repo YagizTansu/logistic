@@ -13,20 +13,19 @@
             <div class="carousel-inner">
                 <!-- Single item -->
                 <div class="carousel-item active">
-                    <div class="mask" style="background-color: rgba(0.2, 0, 0, 0);">
-
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
                     </div>
                 </div>
 
                 <!-- Single item -->
                 <div class="carousel-item">
-                    <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
                     </div>
                 </div>
 
                 <!-- Single item -->
                 <div class="carousel-item">
-                    <div class="mask" style="background: linear-gradient(45deg,rgba(29, 236, 197, 0.7),rgba(91, 14, 214, 0.7) 100%);">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);" >
                     </div>
                 </div>
             </div>
@@ -143,39 +142,21 @@
         <div class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-12">
-                    <div class="araçlarımız-img">
-                            <img src="assets/img/logo/logo2.png" alt="">
-                    </div>
-                </div>
                 <div class="col-lg-7 col-md-12">
                     <div class="left_sidebar">
                         <aside class="single_sidebar_widget popular_post_widget">
-                            <h3 class="widget_title">Sektörel Haberler</h3>
-
+                            <h3 class="widget_title">Güncel Haberler</h3>
                             <div class="media post_item">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-2">
-                                            <img src="assets/img/post/post_1.png" alt="post">
-                                        </div>
-                                        <div class="col-10">
-                                            <div class="media-body">
-                                                <a href="blog_details.html">
-                                                    <h3>LOJİSTİKTE DİJİTALLEŞME DÖNEMİ</h3>
+                                            <div class="news-item">
+                                            <a href="#" class="news_item_date">
+                                                    <h3>15</h3>
+                                                    <p>Jan</p>
                                                 </a>
-                                                <p>Dijital dünyaya yelken açacak olan lojistik firmaları günlük işlerini, yüzlerce çalışan ve onlarca telefon görüşmesiyle yapmak yerine, laptop veya cep telefonlarından birkaç...</p>
-                                                <p>January 12, 2019</p>
+                                                
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media post_item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <img src="assets/img/post/post_1.png" alt="post">
                                         </div>
                                         <div class="col-10">
                                             <div class="media-body">
@@ -193,12 +174,40 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-2">
-                                            <img src="assets/img/post/post_1.png" alt="post">
+                                            <div class="news-item">
+                                                <a href="#" class="news_item_date">
+                                                    <h3>15</h3>
+                                                    <p>Jan</p>
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="col-10">
                                             <div class="media-body">
                                                 <a href="blog_details.html">
-                                                    <h3>Yaşar Üniversitesi 9.Lojistik Günlerinde</h3>
+                                                    <h3>Lojistik Koordinasyon Kurulu Hayata Geçiyor</h3>
+                                                </a>
+                                                <p>Dijital dünyaya yelken açacak olan lojistik firmaları günlük işlerini, yüzlerce çalışan ve onlarca telefon görüşmesiyle yapmak yerine, laptop veya cep telefonlarından birkaç...</p>
+                                                <p>January 12, 2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="news-item">
+                                                <a href="#" class="news_item_date">
+                                                    <h3>15</h3>
+                                                    <p>Jan</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="media-body">
+                                                <a href="blog_details.html">
+                                                    <h3>Lojistik Koordinasyon Kurulu Hayata Geçiyor</h3>
                                                 </a>
                                                 <p>Dijital dünyaya yelken açacak olan lojistik firmaları günlük işlerini, yüzlerce çalışan ve onlarca telefon görüşmesiyle yapmak yerine, laptop veya cep telefonlarından birkaç...</p>
                                                 <p>January 12, 2019</p>

@@ -115,7 +115,7 @@ a:hover {
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
-.footer -menu li a:hover {
+.slogan -menu li a:hover {
     text-decoration: none
 }
 
@@ -638,34 +638,34 @@ li {
     padding-bottom: 90px
 }
 
-.footer-padding {
+.slogan-padding {
     padding-top: 40px;
     padding-bottom: 10px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .footer-padding {
+    .slogan-padding {
         padding-top: 105px;
         padding-bottom: 20px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-padding {
+    .slogan-padding {
         padding-top: 100px;
         padding-bottom: 50px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .footer-padding {
+    .slogan-padding {
         padding-top: 80px;
         padding-bottom: 0px
     }
 }
 
 @media (max-width: 575px) {
-    .footer-padding {
+    .slogan-padding {
         padding-top: 80px;
         padding-bottom: 0px
     }
@@ -928,7 +928,8 @@ li {
 }
 
 .header-sticky.sticky-bar {
-    background: #383e42;
+    background-image: url('../img/about/bg-gray.jpg');
+    height: 200px;
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
@@ -1713,17 +1714,22 @@ li {
     outline: 0
 }
 
-.footer-area {
-    background: #121212
+.slogan-area {
+    background-image: url('../img/about/sky.jpg');
 }
 
-.footer-area .footer-heading {
+.effect {
+    background-color: #64605e;
+    opacity: 0.8;
+}
+
+.slogan-area .slogan-heading {
     padding-bottom: 51px;
     margin-bottom: 82px;
     border-bottom: 1px solid #1a2537
 }
 
-.footer-area .footer-heading .wantToWork-caption h2 {
+.slogan-area .slogan-heading .wantToWork-caption h2 {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
@@ -1733,37 +1739,37 @@ li {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-area .footer-heading .wantToWork-caption h2 {
+    .slogan-area .slogan-heading .wantToWork-caption h2 {
         font-size: 30px
     }
 }
 
 @media (max-width: 575px) {
-    .footer-area .footer-heading .wantToWork-caption h2 {
+    .slogan-area .slogan-heading .wantToWork-caption h2 {
         font-size: 25px;
         margin-bottom: 20px
     }
 }
 
-.footer-area .footer-heading .wantToWork-caption p {
+.slogan-area .slogan-heading .wantToWork-caption p {
     font-size: 18px
 }
 
-.footer-area .footer-heading .contact-number {
+.slogan-area .slogan-heading .contact-number {
     color: #7e1717;
     font-size: 36px;
     font-weight: 700
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .footer-area .footer-heading .contact-number {
+    .slogan-area .slogan-heading .contact-number {
         float: left;
         margin-top: 30px
     }
 }
 
 @media (max-width: 575px) {
-    .footer-area .footer-heading .contact-number {
+    .slogan-area .slogan-heading .contact-number {
         float: left;
         margin-top: 20px;
         font-size: 30px
@@ -1771,17 +1777,17 @@ li {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-area .footer-heading .contact-number {
+    .slogan-area .slogan-heading .contact-number {
         float: left;
         margin-top: 30px
     }
 }
 
-.footer-area .footer-top .single-footer-caption .footer-logo {
+.slogan-area .slogan-top .single-slogan-caption .slogan-logo {
     margin-bottom: 30px
 }
 
-.footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+.slogan-area .slogan-top .single-slogan-caption .slogan-pera .info1 {
     line-height: 1.8;
     margin-bottom: 30px;
     padding-right: 0;
@@ -1789,7 +1795,7 @@ li {
     font-size: 14px
 }
 
-.footer-top p {
+.slogan-top p {
     padding-top: 20px;
     color: #dfd9d9;
     font-size: 28px;
@@ -1798,30 +1804,30 @@ li {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+    .slogan-area .slogan-top .single-slogan-caption .slogan-pera .info1 {
         padding-right: 0px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+    .slogan-area .slogan-top .single-slogan-caption .slogan-pera .info1 {
         padding-right: 0px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+    .slogan-area .slogan-top .single-slogan-caption .slogan-pera .info1 {
         padding-right: 0px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
+    .slogan-area .slogan-top .single-slogan-caption .slogan-pera .info1 {
         padding-right: 0px
     }
 }
 
-.footer-area .footer-top .single-footer-caption .footer-tittle h4 {
+.slogan-area .slogan-top .single-slogan-caption .slogan-tittle h4 {
     color: #fff;
     font-family: "Barlow", sans-serif;
     font-size: 18px;
@@ -1830,27 +1836,27 @@ li {
     text-transform: uppercase
 }
 
-.footer-area .footer-top .single-footer-caption .footer-tittle ul li {
+.slogan-area .slogan-top .single-slogan-caption .slogan-tittle ul li {
     color: #bbbcbc;
     margin-bottom: 15px;
     text-transform: capitalize
 }
 
-.footer-area .footer-top .single-footer-caption .footer-tittle ul li a {
+.slogan-area .slogan-top .single-slogan-caption .slogan-tittle ul li a {
     color: #868c98;
     font-weight: 300
 }
 
-.footer-area .footer-top .single-footer-caption .footer-tittle ul li a:hover {
+.slogan-area .slogan-top .single-slogan-caption .slogan-tittle ul li a:hover {
     color: #7e1717;
     padding-left: 5px
 }
 
-.footer-area .footer-bottom {
+.slogan-area .slogan-bottom {
     padding-bottom: 30px;
 }
 
-.footer-area .footer-bottom .footer-text p {
+.slogan-area .slogan-bottom .slogan-text p {
     color: #bbbcbc;
     font-weight: 300;
     font-size: 16px;
@@ -1858,26 +1864,26 @@ li {
     margin-bottom: 12px
 }
 
-.footer-area .footer-bottom .footer-text p i {
+.slogan-area .slogan-bottom .slogan-text p i {
     color: #7e1717
 }
 
-.footer-area .footer-bottom .footer-text p a {
+.slogan-area .slogan-bottom .slogan-text p a {
     color: #7e1717
 }
 
-.footer-area .footer-social a {
+.slogan-area .slogan-social a {
     color: #848493;
     font-size: 18px;
     text-align: center;
     margin-left: 24px
 }
 
-.footer-area .footer-social a:first-child {
+.slogan-area .slogan-social a:first-child {
     margin-left: 0px
 }
 
-.footer-area .footer-social a:hover {
+.slogan-area .slogan-social a:hover {
     color: #fff
 }
 
@@ -4807,21 +4813,21 @@ img {
 }
 
 .carousel-item:nth-child(1) {
-    background-image: url('../img/about/PLANE.png');
+    background-image: url('../img/about/truck.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url('../img/about/ship2.jpg');
+    background-image: url('../img/about/plane-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url('../img/about/ship3.jpg');
+    background-image: url('../img/about/ship1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -4839,12 +4845,22 @@ img {
 
 /* Normal desktop :1200px. */
 
-@media (min-width: 1200px) and (max-width: 1500px) {}
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .logo img {
+        width: 200px;
+        height: 200px;
+    }
+}
 
 
 /* Normal desktop :992px. */
 
-@media (min-width: 992px) and (max-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .logo img {
+        width: 200px;
+        height: 200px;
+    }
+}
 
 
 /* Tablet desktop :768px. */
@@ -4854,7 +4870,15 @@ img {
 
 /* small mobile :320px. */
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .logo img {
+        width: 120px;
+        height: 100px;
+    }
+    .header-area {
+        height: 0px;
+    }
+}
 
 
 /* Large Mobile :480px. */
@@ -4867,4 +4891,191 @@ img {
 
 .bg-image {
     background-image: url('../img/about/ship3.jpg');
+}
+
+.text-slogan {
+    padding-top: 50px;
+    color: #eeeeee;
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.responsive {
+    width: auto;
+    height: auto;
+}
+
+hr.line {
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
+
+.footer-pad h4 {
+    color: #eeeeee;
+    font-weight: 700;
+}
+
+.blog_item_img {
+    position: relative
+}
+
+.news_item {
+    width: 100px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    background-color: #7e1717;
+    border-radius: 5px
+}
+
+@media (min-width: 768px) {
+    .blog_item_img .blog_item_date {
+        bottom: -20px;
+        left: 40px;
+        padding: 13px 30px
+    }
+}
+
+.blog_item_img .blog_item_date h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1.2
+}
+
+@media (min-width: 768px) {
+    .blog_item_img .blog_item_date h3 {
+        font-size: 30px
+    }
+}
+
+.blog_item_img .blog_item_date p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #fff
+}
+
+@media (min-width: 768px) {
+    .blog_item_img .blog_item_date p {
+        font-size: 18px
+    }
 }
