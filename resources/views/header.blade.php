@@ -44,7 +44,7 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>
-                                        <li><span class="contact-info__icon "><i class="ti-tablet"></i></span>: +99 (0) 101 0000 888</li>
+                                        <li><span class="contact-info__icon "><i class="ti-tablet"></i></span>+99 (0) 101 0000 888</li>
                                         <li><span class="contact-info__icon"><i class="ti-email"></i></span> globalgate@gmail.com</li>
                                     </ul>
                                 </div>

@@ -5,7 +5,7 @@ Araç Filomuz
 @include('kurumsal.header-kurumsal')
 
                     <div class="col-lg-9 col-md-12">
-                        <div class="about-caption mb-50">
+                        <div class="content-part-index mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
                                 <h2>Araç Filomuz</h2>

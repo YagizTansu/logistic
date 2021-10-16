@@ -1,68 +1,68 @@
 @include('header')
 
-        <!-- Carousel wrapper -->
-        <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
-                <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
-                <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
-            </ol>
+<!-- Carousel wrapper -->
+<div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+    </ol>
 
-            <!-- Inner -->
-            <div class="carousel-inner">
-                <!-- Single item -->
-                <div class="carousel-item active">
-                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
-                    </div>
-                </div>
-
-                <!-- Single item -->
-                <div class="carousel-item">
-                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
-                    </div>
-                </div>
-
-                <!-- Single item -->
-                <div class="carousel-item">
-                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);" >
-                    </div>
-                </div>
+    <!-- Inner -->
+    <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
             </div>
-            <!-- Inner -->
-
-            <!-- Controls -->
-            <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
+            </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);">
+            </div>
+        </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 <main>
     <!--? Categories Area Start -->
-    <div class="categories-area section-padding10 bg-gray">
+    <div class="services-area section-padding10 bg-gray">
         <div class="container">
-        <div class="section-tittle text-center mb-70">
-                            <h2>HİZMETLER</h2>
-                        </div>
+            <div class="section-tittle text-center mb-70">
+                <h2>HİZMETLER</h2>
+            </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 mb-50">
-                    <div class="single-cat text-center" >
+                    <div class="service text-center">
                         <div class="cat-icon">
                             <span class="flaticon-shipped"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="/karayolları" >Kara Taşımacılığı</a></h5>
+                            <h5><a href="/karayolları">Kara Taşımacılığı</a></h5>
                             <p>Tamamı çevre koruma standartlarına uygun yeşil ve sessiz motor özellikleri ve Uydu Takip sistemi ile donatılmış olan özmal araç filosuyla; Avrupa Kıtasına yönelik komple/parsiyel taşımaları uluslararası karayolu nakliye rejimine uygun olarak gerçekleştirmektedir.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 mb-50">
-                    <div class="single-cat text-center" >
+                    <div class="service text-center">
                         <div class="cat-icon">
                             <span class="flaticon-ship"></span>
                         </div>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6  mb-50 ">
-                    <div class="single-cat text-center" >
+                    <div class="service text-center">
                         <div class="cat-icon">
                             <span class="flaticon-plane"></span>
                         </div>
@@ -84,18 +84,18 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6  mb-50">
-                    <div class="single-cat text-center" >
+                    <div class="service text-center">
                         <div class="cat-icon">
                             <span class="flaticon-shipped"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="/minivan" >Minivan Taşımacılığı</a></h5>
+                            <h5><a href="/minivan">Minivan Taşımacılığı</a></h5>
                             <p>Terminli olan ihracat ve ithalat yüklemeleriniz için, havayoluna alternatif olan özel minivan araçlarımızla, Avrupa geneline/ genelinden 36-48 saatte garantili teslimat imkanı sunmaktadır.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6  mb-50">
-                    <div class="single-cat text-center" >
+                    <div class="service text-center">
                         <div class="cat-icon">
                             <span class="flaticon-ship"></span>
                         </div>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6  mb-50">
-                    <div class="single-cat text-center" >
+                    <div class="service text-center">
                         <div class="cat-icon">
                             <span class="flaticon-plane"></span>
                         </div>
@@ -121,11 +121,11 @@
     </div>
     <!-- Categories Area End -->
     <!--? About Area Start -->
-    <div class="about-low-area pt-5">
+    <div class="content-part pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
-                    <div class="about-caption mb-10">
+                    <div class="content-part-index mb-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-35">
                             <h2>GLOBAL GATE LOJİSTİK HAKKINDA</h2>
@@ -139,7 +139,7 @@
         </div>
     </div>
 
-        <div class="section-padding">
+    <div class="section-padding10">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12">
@@ -151,11 +151,11 @@
                                     <div class="row">
                                         <div class="col-2">
                                             <div class="news-item">
-                                            <a href="#" class="news_item_date">
+                                                <a href="#" class="news_item_date">
                                                     <h3>15</h3>
                                                     <p>Jan</p>
                                                 </a>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="col-10">
@@ -216,8 +216,8 @@
                                     </div>
                                 </div>
                             </div>
-                    </aside>
-                </div>
+                        </aside>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 <div class="slider-area ">
-    <div class="single-slider hero-overly slider-height2 d-flex align-items-center bg-image">
+    <div class="single-slider hero-overly header-slider d-flex align-items-center bg-image">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="hero-cap mt-200">
+                    <div class="breadcrumb-area mt-200">
                         <h2>@yield('title')</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
@@ -21,7 +21,7 @@
 
         <!-- slider Area End-->
         <!--? About Area Start -->
-        <div class="about-low-area section-padding">
+        <div class="content-part section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
@@ -66,6 +66,6 @@
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-12">
-                        <div class="about-caption mb-50">
+                        <div class="content-part-index mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
