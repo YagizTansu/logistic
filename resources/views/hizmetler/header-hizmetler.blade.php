@@ -1,5 +1,5 @@
 <div class="slider-area ">
-    <div class="single-slider hero-overly header-slider d-flex align-items-center bg-image">
+    <div class="single-slider header-slider-effect header-slider d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">

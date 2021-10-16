@@ -1,20 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,800|Teko:300,400,500,600,700&display=swap");
-[data-overlay] {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center
-}
-
-[data-overlay]::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    content: ""
-}
-
 body {
     font-family: "Barlow", sans-serif;
     font-weight: normal;
@@ -799,7 +783,7 @@ li {
 }
 
 .header-slider {
-    background-image: url(../img/hero/hero2.jpg);
+    background-image: url(../img/about/header-slider.jpg);
     min-height: 350px;
     background-repeat: no-repeat;
     background-size: cover
@@ -823,12 +807,12 @@ li {
     }
 }
 
-.hero-overly {
+.header-slider-effect {
     position: relative;
     z-index: 1
 }
 
-.hero-overly::before {
+.header-slider-effect::before {
     position: absolute;
     content: "";
     background-color: rgba(8, 28, 68, 0.6);
@@ -2307,7 +2291,7 @@ img {
     height: 2rem;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 100% 100%
+    background-size: 100% 100%;
 }
 
 

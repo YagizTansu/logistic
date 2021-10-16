@@ -98,18 +98,10 @@
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-
-<!-- JS here -->
-
-<!-- Jquery,Bootstrap -->
 <script src="{{asset('assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
-
-<!-- Jquery Mobile Menu -->
 <script src="{{asset('assets/js/jquery.slicknav.min.js')}}"></script>
-
-<!--main Js -->
 <script src="{{asset('assets/js/main.js')}}"></script>
-<script src="{{asset('assets/js/mdb.min.js')}}"></script>
+<script src="{{asset('assets/js/carousel.js')}}"></script>
 </body>
 
-</html>
+</htmul>
