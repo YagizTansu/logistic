@@ -1,12 +1,12 @@
 @include('header')
 
 <!-- Carousel wrapper -->
-<div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+<div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-car-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+        <li data-car-target="" data-car-slide-to="0" class="active"></li>
+        <li data-car-target="" data-car-slide-to="1"></li>
+        <li data-car-target="" data-car-slide-to="2"></li>
     </ol>
 
     <!-- Inner -->
@@ -32,11 +32,11 @@
     <!-- Inner -->
 
     <!-- Controls -->
-    <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+    <a class="carousel-control-prev" href="#introCarousel" role="button" data-car-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+    <a class="carousel-control-next" href="#introCarousel" role="button" data-car-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>

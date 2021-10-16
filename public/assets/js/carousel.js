@@ -1,4 +1,4 @@
-! function(t, e) { "object" == typeof exports && "object" == typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define("mdb", [], e) : "object" == typeof exports ? exports.mdb = e() : t.mdb = e() }(this, function() {
+! function(t, e) { "object" == typeof exports && "object" == typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define("car", [], e) : "object" == typeof exports ? exports.car = e() : t.car = e() }(this, function() {
     return r = {}, o.m = n = [function(t, e, n) {
         var r, o = n(7),
             i = n(93),
@@ -1552,7 +1552,7 @@
         var c = {};
         n.r(c), n.d(c, "top", function() { return Ur }), n.d(c, "bottom", function() { return Wr }), n.d(c, "right", function() { return Fr }), n.d(c, "left", function() { return Qr }), n.d(c, "auto", function() { return zr }), n.d(c, "basePlacements", function() { return Kr }), n.d(c, "start", function() { return Yr }), n.d(c, "end", function() { return qr }), n.d(c, "clippingParents", function() { return Vr }), n.d(c, "viewport", function() { return Xr }), n.d(c, "popper", function() { return $r }), n.d(c, "reference", function() { return Gr }), n.d(c, "variationPlacements", function() { return Jr }), n.d(c, "placements", function() { return Zr }), n.d(c, "beforeRead", function() { return to }), n.d(c, "read", function() { return eo }), n.d(c, "afterRead", function() { return no }), n.d(c, "beforeMain", function() { return ro }), n.d(c, "main", function() { return oo }), n.d(c, "afterMain", function() { return io }), n.d(c, "beforeWrite", function() { return co }), n.d(c, "write", function() { return ao }), n.d(c, "afterWrite", function() { return uo }), n.d(c, "modifierPhases", function() { return so }), n.d(c, "applyStyles", function() { return go }), n.d(c, "arrow", function() { return Lo }), n.d(c, "computeStyles", function() { return No }), n.d(c, "eventListeners", function() { return Ho }), n.d(c, "flip", function() { return ti }), n.d(c, "hide", function() { return ri }), n.d(c, "offset", function() { return oi }), n.d(c, "popperOffsets", function() { return ii }), n.d(c, "preventOverflow", function() { return ci }), n.d(c, "popperGenerator", function() { return fi }), n.d(c, "detectOverflow", function() { return Zo }), n.d(c, "createPopperBase", function() { return pi }), n.d(c, "createPopper", function() { return di }), n.d(c, "createPopperLite", function() { return hi });
 
-        function i(t) { var e = t.getAttribute("data-mdb-target"); return e = !e || "#" === e ? (t = t.getAttribute("href")) && "#" !== t ? t.trim() : null : e }
+        function i(t) { var e = t.getAttribute("data-car-target"); return e = !e || "#" === e ? (t = t.getAttribute("href")) && "#" !== t ? t.trim() : null : e }
 
         function a(i, c, a) {
             Object.keys(a).forEach(function(t) {
@@ -1563,7 +1563,7 @@
             })
         }
 
-        function r() { var t = window.jQuery; return t && !document.body.hasAttribute("data-mdb-no-jquery") ? t : null }
+        function r() { var t = window.jQuery; return t && !document.body.hasAttribute("data-car-no-jquery") ? t : null }
 
         function u(t) { "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", t) : t() }
 
@@ -1694,17 +1694,17 @@
 
         function R(t) { return t.replace(/[A-Z]/g, function(t) { return "-".concat(t.toLowerCase()) }) }
         var I = {
-            setDataAttribute: function(t, e, n) { t.setAttribute("data-mdb-".concat(R(e)), n) },
-            removeDataAttribute: function(t, e) { t.removeAttribute("data-mdb-".concat(R(e))) },
+            setDataAttribute: function(t, e, n) { t.setAttribute("data-car-".concat(R(e)), n) },
+            removeDataAttribute: function(t, e) { t.removeAttribute("data-car-".concat(R(e))) },
             getDataAttributes: function(t) {
                 if (!t) return {};
                 var n = C({}, t.dataset);
-                return Object.keys(n).filter(function(t) { return t.startsWith("mdb") }).forEach(function(t) {
-                    var e = (e = t.replace(/^mdb/, "")).charAt(0).toLowerCase() + e.slice(1, e.length);
+                return Object.keys(n).filter(function(t) { return t.startsWith("car") }).forEach(function(t) {
+                    var e = (e = t.replace(/^car/, "")).charAt(0).toLowerCase() + e.slice(1, e.length);
                     n[e] = L(n[t])
                 }), n
             },
-            getDataAttribute: function(t, e) { return L(t.getAttribute("data-mdb-".concat(R(e)))) },
+            getDataAttribute: function(t, e) { return L(t.getAttribute("data-car-".concat(R(e)))) },
             offset: function(t) { t = t.getBoundingClientRect(); return { top: t.top + document.body.scrollTop, left: t.left + document.body.scrollLeft } },
             position: function(t) { return { top: t.offsetTop, left: t.offsetLeft } },
             style: function(t, e) { Object.assign(t.style, e) },
@@ -1725,7 +1725,7 @@
 
         function H(t) { for (; t += Math.floor(1e6 * Math.random()), document.getElementById(t);); return t }
 
-        function B(t) { var e = t.getAttribute("data-mdb-target"); return e = !e || "#" === e ? (t = t.getAttribute("href")) && "#" !== t ? t.trim() : null : e }
+        function B(t) { var e = t.getAttribute("data-car-target"); return e = !e || "#" === e ? (t = t.getAttribute("href")) && "#" !== t ? t.trim() : null : e }
 
         function U(t) { return (t = B(t)) ? document.querySelector(t) : null }
 
@@ -1773,7 +1773,7 @@
 
         function X(t) { return t.offsetHeight }
 
-        function $() { var t = window.jQuery; return t && !document.body.hasAttribute("data-mdb-no-jquery") ? t : null }
+        function $() { var t = window.jQuery; return t && !document.body.hasAttribute("data-car-no-jquery") ? t : null }
         var G, J, Z = {
                 closest: function(t, e) { return t.closest(e) },
                 matches: function(t, e) { return t.matches(e) },
@@ -1941,7 +1941,7 @@
         function Tt(t) { return (Tt = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Dt = "bs.button",
             At = ".".concat(Dt),
-            Ct = '[data-mdb-toggle="button"]',
+            Ct = '[data-car-toggle="button"]',
             e = "click".concat(At).concat(".data-api"),
             Lt = function() {
                 ! function(t, e) {
@@ -1979,7 +1979,7 @@
 
         function Wt(t) { return (Wt = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Ft = "button",
-            Qt = "mdb.".concat(Ft),
+            Qt = "car.".concat(Ft),
             At = ".".concat(Qt),
             zt = "click".concat(At),
             Kt = "transitionend",
@@ -2049,7 +2049,7 @@
                     }
                 }, { key: "_getHeight", value: function(t) { t = window.getComputedStyle(t); return parseFloat(t.getPropertyValue("height")) } }, { key: "_saveInitialHeights", value: function() { this._initialContainerHeight = this._getHeight(this._element), this._initialListHeight = this._getHeight(this._buttonList), this._fullContainerHeight = this._initialContainerHeight + this._initialListHeight } }, { key: "_bindInitialEvents", value: function() { this._bindClick(), this._bindMouseEnter(), this._bindMouseLeave() } }, { key: "_setInitialStyles", value: function() { this._buttonList.style.marginBottom = "".concat(this._initialContainerHeight, "px"), this._buttonList.style.transform = "translateY(".concat(this._fullContainerHeight, "px)"), this._element.style.height = "".concat(this._initialContainerHeight, "px") } }]) && Nt(t.prototype, e), n && Nt(t, n), o
             }();
-        Z.find(".fixed-action-btn").forEach(function(t) { return Zt.getInstance(t) || new Zt(t) }), Z.find('[data-mdb-toggle="button"]').forEach(function(t) { return Zt.getInstance(t) || new Zt(t) }), u(function() {
+        Z.find(".fixed-action-btn").forEach(function(t) { return Zt.getInstance(t) || new Zt(t) }), Z.find('[data-car-toggle="button"]').forEach(function(t) { return Zt.getInstance(t) || new Zt(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn[Ft], e.fn[Ft] = Zt.jQueryInterface, e.fn[Ft].Constructor = Zt, e.fn[Ft].noConflict = function() { return e.fn[Ft] = t, Zt.jQueryInterface })
         });
@@ -2059,17 +2059,17 @@
 
         function ne(t) { return t.replace(/[A-Z]/g, function(t) { return "-".concat(t.toLowerCase()) }) }
         var re = {
-            setDataAttribute: function(t, e, n) { t.setAttribute("data-mdb-".concat(ne(e)), n) },
-            removeDataAttribute: function(t, e) { t.removeAttribute("data-mdb-".concat(ne(e))) },
+            setDataAttribute: function(t, e, n) { t.setAttribute("data-car-".concat(ne(e)), n) },
+            removeDataAttribute: function(t, e) { t.removeAttribute("data-car-".concat(ne(e))) },
             getDataAttributes: function(n) {
                 if (!n) return {};
                 var r = {};
-                return Object.keys(n.dataset).filter(function(t) { return t.startsWith("mdb") }).forEach(function(t) {
-                    var e = (e = t.replace(/^mdb/, "")).charAt(0).toLowerCase() + e.slice(1, e.length);
+                return Object.keys(n.dataset).filter(function(t) { return t.startsWith("car") }).forEach(function(t) {
+                    var e = (e = t.replace(/^car/, "")).charAt(0).toLowerCase() + e.slice(1, e.length);
                     r[e] = ee(n.dataset[t])
                 }), r
             },
-            getDataAttribute: function(t, e) { return ee(t.getAttribute("data-mdb-".concat(ne(e)))) },
+            getDataAttribute: function(t, e) { return ee(t.getAttribute("data-car-".concat(ne(e)))) },
             offset: function(t) { t = t.getBoundingClientRect(); return { top: t.top + document.body.scrollTop, left: t.left + document.body.scrollLeft } },
             position: function(t) { return { top: t.offsetTop, left: t.offsetLeft } }
         };
@@ -2146,7 +2146,7 @@
             je = "collapse",
             ke = "collapsing",
             Se = "collapsed",
-            xe = '[data-mdb-toggle="collapse"]',
+            xe = '[data-car-toggle="collapse"]',
             Pe = function() {
                 ! function(t, e) {
                     if ("function" != typeof e && null !== e) throw new TypeError("Super expression must either be null or a function");
@@ -2156,7 +2156,7 @@
 
                 function l(e, t) {
                     var n;
-                    ! function(t) { if (!(t instanceof l)) throw new TypeError("Cannot call a class as a function") }(this), (n = s.call(this, e))._isTransitioning = !1, n._config = n._getConfig(t), n._triggerArray = ce.find("".concat(xe, '[href="#').concat(e.id, '"],') + "".concat(xe, '[data-mdb-target="#').concat(e.id, '"]'));
+                    ! function(t) { if (!(t instanceof l)) throw new TypeError("Cannot call a class as a function") }(this), (n = s.call(this, e))._isTransitioning = !1, n._config = n._getConfig(t), n._triggerArray = ce.find("".concat(xe, '[href="#').concat(e.id, '"],') + "".concat(xe, '[data-car-target="#').concat(e.id, '"]'));
                     for (var r = ce.find(xe), o = 0, i = r.length; o < i; o++) {
                         var c = r[o],
                             a = et(c),
@@ -2180,7 +2180,7 @@
                     value: function() {
                         var e = this;
                         if (!this._isTransitioning && !this._element.classList.contains(Ee)) {
-                            this._parent && 0 === (n = ce.find(".show, .collapsing", this._parent).filter(function(t) { return "string" == typeof e._config.parent ? t.getAttribute("data-mdb-parent") === e._config.parent : t.classList.contains(je) })).length && (n = null);
+                            this._parent && 0 === (n = ce.find(".show, .collapsing", this._parent).filter(function(t) { return "string" == typeof e._config.parent ? t.getAttribute("data-car-parent") === e._config.parent : t.classList.contains(je) })).length && (n = null);
                             var t, n, r = ce.findOne(this._selector);
                             if (n) { var o, i = n.find(function(t) { return r !== t }); if ((o = i ? it.getData(i, ge) : null) && o._isTransitioning) return }
                             Ot.trigger(this._element, be).defaultPrevented || (n && n.forEach(function(t) { r !== t && l.collapseInterface(t, "hide"), o || it.setData(t, ge, null) }), t = this._getDimension(), this._element.classList.remove(je), this._element.classList.add(ke), this._element.style[t] = 0, this._triggerArray.length && this._triggerArray.forEach(function(t) { t.classList.remove(Se), t.setAttribute("aria-expanded", !0) }), this.setTransitioning(!0), i = t[0].toUpperCase() + t.slice(1), n = "scroll".concat(i), i = W(this._element), Ot.one(this._element, "transitionend", function() { e._element.classList.remove(ke), e._element.classList.add(je, Ee), e._element.style[t] = "", e.setTransitioning(!1), Ot.trigger(e._element, _e) }), z(this._element, i), this._element.style[t] = "".concat(this._element[n], "px"))
@@ -2212,7 +2212,7 @@
                         var n = this,
                             t = this._config.parent;
                         Q(t) ? void 0 === t.jquery && void 0 === t[0] || (t = t[0]) : t = ce.findOne(t);
-                        var e = "".concat(xe, '[data-mdb-parent="').concat(t, '"]');
+                        var e = "".concat(xe, '[data-car-parent="').concat(t, '"]');
                         return ce.find(e, t).forEach(function(t) {
                             var e = U(t);
                             n._addAriaAndCollapsedClass(e, [t])
@@ -2280,7 +2280,7 @@
                     }
                 }, { key: "_destroyElement", value: function(t) { t.parentNode && t.parentNode.removeChild(t), Ot.trigger(t, Me) } }]) && Ae(t.prototype, e), n && Ae(t, n), o
             }();
-        Ot.on(document, At, '[data-mdb-dismiss="alert"]', e.handleDismiss(new e)), rt("alert", e);
+        Ot.on(document, At, '[data-car-dismiss="alert"]', e.handleDismiss(new e)), rt("alert", e);
         var He = e;
 
         function Be(t) { return (Be = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) { return typeof t } : function(t) { return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t })(t) }
@@ -2300,7 +2300,7 @@
 
         function ze(t) { return (ze = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Ke = "alert",
-            At = "mdb.".concat(Ke),
+            At = "car.".concat(Ke),
             e = ".".concat(At),
             Ye = "close.bs.alert",
             qe = "closed.bs.alert",
@@ -2414,7 +2414,7 @@
                     key: "dataApiClickHandler",
                     value: function(t) {
                         var e, n, r = U(this);
-                        r && r.classList.contains("carousel") && (e = tn(tn({}, re.getDataAttributes(r)), re.getDataAttributes(this)), (n = this.getAttribute("data-mdb-slide-to")) && (e.interval = !1), i.carouselInterface(r, e), n && it.getData(r, un).to(n), t.preventDefault())
+                        r && r.classList.contains("carousel") && (e = tn(tn({}, re.getDataAttributes(r)), re.getDataAttributes(this)), (n = this.getAttribute("data-car-slide-to")) && (e.interval = !1), i.carouselInterface(r, e), n && it.getData(r, un).to(n), t.preventDefault())
                     }
                 }], (e = [{ key: "next", value: function() { this._isSliding || this._slide(pn) } }, { key: "nextWhenVisible", value: function() {!document.hidden && Y(this._element) && this.next() } }, { key: "prev", value: function() { this._isSliding || this._slide(dn) } }, { key: "pause", value: function(t) { t || (this._isPaused = !0), ce.findOne(".carousel-item-next, .carousel-item-prev", this._element) && (F(this._element), this.cycle(!0)), clearInterval(this._interval), this._interval = null } }, { key: "cycle", value: function(t) { t || (this._isPaused = !1), this._interval && (clearInterval(this._interval), this._interval = null), this._config && this._config.interval && !this._isPaused && (this._updateInterval(), this._interval = setInterval((document.visibilityState ? this.nextWhenVisible : this.next).bind(this), this._config.interval)) } }, {
                     key: "to",
@@ -2477,15 +2477,15 @@
                         if (this._indicatorsElement) {
                             var e = ce.findOne(".active", this._indicatorsElement);
                             e.classList.remove(kn), e.removeAttribute("aria-current");
-                            for (var n = ce.find("[data-mdb-target]", this._indicatorsElement), r = 0; r < n.length; r++)
-                                if (Number.parseInt(n[r].getAttribute("data-mdb-slide-to"), 10) === this._getItemIndex(t)) { n[r].classList.add(kn), n[r].setAttribute("aria-current", "true"); break }
+                            for (var n = ce.find("[data-car-target]", this._indicatorsElement), r = 0; r < n.length; r++)
+                                if (Number.parseInt(n[r].getAttribute("data-car-slide-to"), 10) === this._getItemIndex(t)) { n[r].classList.add(kn), n[r].setAttribute("aria-current", "true"); break }
                         }
                     }
                 }, {
                     key: "_updateInterval",
                     value: function() {
                         var t = this._activeElement || ce.findOne(Sn, this._element);
-                        t && ((t = Number.parseInt(t.getAttribute("data-mdb-interval"), 10)) ? (this._config.defaultInterval = this._config.defaultInterval || this._config.interval, this._config.interval = t) : this._config.interval = this._config.defaultInterval || this._config.interval)
+                        t && ((t = Number.parseInt(t.getAttribute("data-car-interval"), 10)) ? (this._config.defaultInterval = this._config.defaultInterval || this._config.interval, this._config.interval = t) : this._config.interval = this._config.defaultInterval || this._config.interval)
                     }
                 }, {
                     key: "_slide",
@@ -2503,7 +2503,7 @@
                     }
                 }]) && en(t.prototype, e), n && en(t, n), i
             }();
-        Ot.on(document, At, "[data-mdb-slide], [data-mdb-slide-to]", Pn.dataApiClickHandler), Ot.on(window, e, function() { for (var t = ce.find('[data-mdb-ride="carousel"]'), e = 0, n = t.length; e < n; e++) Pn.carouselInterface(t[e], it.getData(t[e], un)) }), rt(an, Pn);
+        Ot.on(document, At, "[data-car-slide], [data-car-slide-to]", Pn.dataApiClickHandler), Ot.on(window, e, function() { for (var t = ce.find('[data-car-ride="carousel"]'), e = 0, n = t.length; e < n; e++) Pn.carouselInterface(t[e], it.getData(t[e], un)) }), rt(an, Pn);
         var Tn = Pn;
 
         function Dn(t) { return (Dn = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) { return typeof t } : function(t) { return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t })(t) }
@@ -2523,7 +2523,7 @@
 
         function In(t) { return (In = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Nn = "carousel",
-            At = "mdb.".concat(Nn),
+            At = "car.".concat(Nn),
             e = ".".concat(At),
             Mn = "slide.bs.carousel",
             Hn = "slid.bs.carousel",
@@ -2551,7 +2551,7 @@
                     }
                 }]) && An(t.prototype, e), n && An(t, n), o
             }();
-        Z.find('[data-mdb-ride="carousel"]').forEach(function(t) { Wn.getInstance(t) || new Wn(t) }), u(function() {
+        Z.find('[data-car-ride="carousel"]').forEach(function(t) { Wn.getInstance(t) || new Wn(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn[Nn], e.fn[Nn] = Wn.jQueryInterface, e.fn[Nn].Constructor = Wn, e.fn[Nn].noConflict = function() { return e.fn[Nn] = t, Wn.jQueryInterface })
         });
@@ -2634,7 +2634,7 @@
                     key: "show",
                     value: function(t) {
                         var e, n = this;
-                        this._isShown || this._isTransitioning || (this._element.classList.contains(dr) && (this._isTransitioning = !0), e = Ot.trigger(this._element, or, { relatedTarget: t }), this._isShown || e.defaultPrevented || (this._isShown = !0, this._checkScrollbar(), this._setScrollbar(), this._adjustDialog(), this._setEscapeEvent(), this._setResizeEvent(), Ot.on(this._element, ur, '[data-mdb-dismiss="modal"]', function(t) { return n.hide(t) }), Ot.on(this._dialog, fr, function() { Ot.one(n._element, lr, function(t) { t.target === n._element && (n._ignoreBackdropClick = !0) }) }), this._showBackdrop(function() { return n._showElement(t) })))
+                        this._isShown || this._isTransitioning || (this._element.classList.contains(dr) && (this._isTransitioning = !0), e = Ot.trigger(this._element, or, { relatedTarget: t }), this._isShown || e.defaultPrevented || (this._isShown = !0, this._checkScrollbar(), this._setScrollbar(), this._adjustDialog(), this._setEscapeEvent(), this._setResizeEvent(), Ot.on(this._element, ur, '[data-car-dismiss="modal"]', function(t) { return n.hide(t) }), Ot.on(this._dialog, fr, function() { Ot.one(n._element, lr, function(t) { t.target === n._element && (n._ignoreBackdropClick = !0) }) }), this._showBackdrop(function() { return n._showElement(t) })))
                     }
                 }, {
                     key: "hide",
@@ -2739,7 +2739,7 @@
                     }
                 }]) && Yn(t.prototype, e), n && Yn(t, n), o
             }();
-        Ot.on(document, At, '[data-mdb-toggle="modal"]', function(t) {
+        Ot.on(document, At, '[data-car-toggle="modal"]', function(t) {
             var e = this,
                 n = U(this);
             "A" !== this.tagName && "AREA" !== this.tagName || t.preventDefault(), Ot.one(n, or, function(t) { t.defaultPrevented || Ot.one(n, rr, function() { Y(e) && e.focus() }) });
@@ -2765,7 +2765,7 @@
 
         function Sr(t) { return (Sr = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var xr = "modal",
-            e = "mdb.".concat(xr),
+            e = "car.".concat(xr),
             At = ".".concat(e),
             Pr = "hide.bs.modal",
             Tr = "hidePrevented.bs.modal",
@@ -2817,7 +2817,7 @@
                     }
                 }]) && Or(t.prototype, e), n && Or(t, n), o
             }();
-        Z.find('[data-mdb-toggle="modal"]').forEach(function(t) { t = function(t) { t = i(t); return t && document.querySelector(t) ? t : null }(t), t = Z.findOne(t), Hr.getInstance(t) || new Hr(t) }), u(function() {
+        Z.find('[data-car-toggle="modal"]').forEach(function(t) { t = function(t) { t = i(t); return t && document.querySelector(t) ? t : null }(t), t = Z.findOne(t), Hr.getInstance(t) || new Hr(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn[xr], e.fn[xr] = Hr.jQueryInterface, e.fn[xr].Constructor = Hr, e.fn[xr].noConflict = function() { return e.fn[xr] = t, Hr.jQueryInterface })
         });
@@ -3440,7 +3440,7 @@
                         var t = this.getTipElement();
                         this.setElementContent(ce.findOne(".tooltip-inner", t), this.getTitle()), t.classList.remove(Wi, Fi)
                     }
-                }, { key: "setElementContent", value: function(t, e) { if (null !== t) return "object" === Ei(e) && Q(e) ? (e.jquery && (e = e[0]), void(this.config.html ? e.parentNode !== t && (t.innerHTML = "", t.appendChild(e)) : t.textContent = e.textContent)) : void(this.config.html ? (this.config.sanitize && (e = _i(e, this.config.allowList, this.config.sanitizeFn)), t.innerHTML = e) : t.textContent = e) } }, { key: "getTitle", value: function() { return this._element.getAttribute("data-mdb-original-title") || ("function" == typeof this.config.title ? this.config.title.call(this._element) : this.config.title) } }, { key: "updateAttachment", value: function(t) { return "right" === t ? "end" : "left" === t ? "start" : t } }, { key: "_initializeOnDelegatedTarget", value: function(t, e) { var n = this.constructor.DATA_KEY; return (e = e || it.getData(t.delegateTarget, n)) || (e = new this.constructor(t.delegateTarget, this._getDelegateConfig()), it.setData(t.delegateTarget, n, e)), e } }, {
+                }, { key: "setElementContent", value: function(t, e) { if (null !== t) return "object" === Ei(e) && Q(e) ? (e.jquery && (e = e[0]), void(this.config.html ? e.parentNode !== t && (t.innerHTML = "", t.appendChild(e)) : t.textContent = e.textContent)) : void(this.config.html ? (this.config.sanitize && (e = _i(e, this.config.allowList, this.config.sanitizeFn)), t.innerHTML = e) : t.textContent = e) } }, { key: "getTitle", value: function() { return this._element.getAttribute("data-car-original-title") || ("function" == typeof this.config.title ? this.config.title.call(this._element) : this.config.title) } }, { key: "updateAttachment", value: function(t) { return "right" === t ? "end" : "left" === t ? "start" : t } }, { key: "_initializeOnDelegatedTarget", value: function(t, e) { var n = this.constructor.DATA_KEY; return (e = e || it.getData(t.delegateTarget, n)) || (e = new this.constructor(t.delegateTarget, this._getDelegateConfig()), it.setData(t.delegateTarget, n, e)), e } }, {
                     key: "_getOffset",
                     value: function() {
                         var e = this,
@@ -3464,8 +3464,8 @@
                     key: "_fixTitle",
                     value: function() {
                         var t = this._element.getAttribute("title"),
-                            e = Ei(this._element.getAttribute("data-mdb-original-title"));
-                        !t && "string" === e || (this._element.setAttribute("data-mdb-original-title", t || ""), !t || this._element.getAttribute("aria-label") || this._element.textContent || this._element.setAttribute("aria-label", t), this._element.setAttribute("title", ""))
+                            e = Ei(this._element.getAttribute("data-car-original-title"));
+                        !t && "string" === e || (this._element.setAttribute("data-car-original-title", t || ""), !t || this._element.getAttribute("aria-label") || this._element.textContent || this._element.setAttribute("aria-label", t), this._element.setAttribute("title", ""))
                     }
                 }, { key: "_enter", value: function(t, e) { e = this._initializeOnDelegatedTarget(t, e), t && (e._activeTrigger["focusin" === t.type ? Ki : zi] = !0), e.getTipElement().classList.contains(Fi) || e._hoverState === Qi ? e._hoverState = Qi : (clearTimeout(e._timeout), e._hoverState = Qi, e.config.delay && e.config.delay.show ? e._timeout = setTimeout(function() { e._hoverState === Qi && e.show() }, e.config.delay.show) : e.show()) } }, { key: "_leave", value: function(t, e) { e = this._initializeOnDelegatedTarget(t, e), t && (e._activeTrigger["focusout" === t.type ? Ki : zi] = !1), e._isWithActiveTrigger() || (clearTimeout(e._timeout), e._hoverState = "out", e.config.delay && e.config.delay.hide ? e._timeout = setTimeout(function() { "out" === e._hoverState && e.hide() }, e.config.delay.hide) : e.hide()) } }, {
                     key: "_isWithActiveTrigger",
@@ -3563,7 +3563,7 @@
                         var e = this._getContent();
                         "function" == typeof e && (e = e.call(this._element)), this.setElementContent(ce.findOne(".popover-body", t), e), t.classList.remove("fade", "show")
                     }
-                }, { key: "_addAttachmentClass", value: function(t) { this.getTipElement().classList.add("".concat(rc, "-").concat(this.updateAttachment(t))) } }, { key: "_getContent", value: function() { return this._element.getAttribute("data-mdb-content") || this.config.content } }, {
+                }, { key: "_addAttachmentClass", value: function(t) { this.getTipElement().classList.add("".concat(rc, "-").concat(this.updateAttachment(t))) } }, { key: "_getContent", value: function() { return this._element.getAttribute("data-car-content") || this.config.content } }, {
                     key: "_cleanTipClass",
                     value: function() {
                         var e = this.getTipElement(),
@@ -3592,7 +3592,7 @@
 
         function hc(t) { return (hc = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var yc = "popover",
-            At = "mdb.".concat(yc),
+            At = "car.".concat(yc),
             e = ".".concat(At),
             gc = "show.bs.popover",
             vc = "shown.bs.popover",
@@ -3644,7 +3644,7 @@
                     }
                 }]) && lc(t.prototype, e), n && lc(t, n), o
             }();
-        Z.find('[data-mdb-toggle="popover"]').forEach(function(t) { Sc.getInstance(t) || new Sc(t) }), u(function() {
+        Z.find('[data-car-toggle="popover"]').forEach(function(t) { Sc.getInstance(t) || new Sc(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn[yc], e.fn[yc] = Sc.jQueryInterface, e.fn[yc].Constructor = Sc, e.fn[yc].noConflict = function() { return e.fn[yc] = t, Sc.jQueryInterface })
         });
@@ -3743,13 +3743,13 @@
                     key: "_activate",
                     value: function(e) {
                         this._activeTarget = e, this._clear();
-                        var t = this._selector.split(",").map(function(t) { return "".concat(t, '[data-mdb-target="').concat(e, '"],').concat(t, '[href="').concat(e, '"]') }),
+                        var t = this._selector.split(",").map(function(t) { return "".concat(t, '[data-car-target="').concat(e, '"],').concat(t, '[href="').concat(e, '"]') }),
                             t = ce.findOne(t.join(","));
                         t.classList.contains(Qc) ? (ce.findOne(".dropdown-toggle", t.closest(".dropdown")).classList.add(zc), t.classList.add(zc)) : (t.classList.add(zc), ce.parents(t, ".nav, .list-group").forEach(function(t) { ce.prev(t, "".concat(Kc, ", ").concat(Yc)).forEach(function(t) { return t.classList.add(zc) }), ce.prev(t, ".nav-item").forEach(function(t) { ce.children(t, Kc).forEach(function(t) { return t.classList.add(zc) }) }) })), Ot.trigger(this._scrollElement, Wc, { relatedTarget: e })
                     }
                 }, { key: "_clear", value: function() { ce.find(this._selector).filter(function(t) { return t.classList.contains(zc) }).forEach(function(t) { return t.classList.remove(zc) }) } }]) && Ac(t.prototype, e), n && Ac(t, n), o
             }();
-        Ot.on(window, At, function() { ce.find('[data-mdb-spy="scroll"]').forEach(function(t) { return new Vc(t, re.getDataAttributes(t)) }) }), rt(Nc, Vc);
+        Ot.on(window, At, function() { ce.find('[data-car-spy="scroll"]').forEach(function(t) { return new Vc(t, re.getDataAttributes(t)) }) }), rt(Nc, Vc);
         var Xc = Vc;
 
         function $c(t) { return ($c = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) { return typeof t } : function(t) { return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t })(t) }
@@ -3769,7 +3769,7 @@
 
         function ea(t) { return (ea = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var na = "scrollspy",
-            e = "mdb.".concat(na),
+            e = "car.".concat(na),
             At = ".".concat(e),
             ra = "activate.bs.scrollspy",
             oa = "activate".concat(At),
@@ -3790,7 +3790,7 @@
                     }
                 }]) && Gc(t.prototype, e), n && Gc(t, n), o
             }();
-        D.on(window, e, function() { Z.find('[data-mdb-spy="scroll"]').forEach(function(t) { ia.getInstance(t) || new ia(t, I.getDataAttributes(t)) }) }), u(function() {
+        D.on(window, e, function() { Z.find('[data-car-spy="scroll"]').forEach(function(t) { ia.getInstance(t) || new ia(t, I.getDataAttributes(t)) }) }), u(function() {
             var t, e = r();
             e && (t = e.fn[na], e.fn[na] = ia.jQueryInterface, e.fn[na].Constructor = ia, e.fn[na].noConflict = function() { return e.fn[na] = t, ia.jQueryInterface })
         });
@@ -3862,7 +3862,7 @@
                     }
                 }]) && ua(t.prototype, e), n && ua(t, n), o
             }();
-        Ot.on(document, e, '[data-mdb-toggle="tab"], [data-mdb-toggle="pill"], [data-mdb-toggle="list"]', function(t) { t.preventDefault(), (it.getData(this, pa) || new _a(this)).show() }), rt("tab", _a);
+        Ot.on(document, e, '[data-car-toggle="tab"], [data-car-toggle="pill"], [data-car-toggle="list"]', function(t) { t.preventDefault(), (it.getData(this, pa) || new _a(this)).show() }), rt("tab", _a);
         var wa = _a;
 
         function Oa(t) { return (Oa = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) { return typeof t } : function(t) { return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t })(t) }
@@ -3882,7 +3882,7 @@
 
         function xa(t) { return (xa = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Pa = "tab",
-            At = "mdb.".concat(Pa),
+            At = "car.".concat(Pa),
             e = ".".concat(At),
             Ta = "show.bs.tab",
             Da = "shown.bs.tab",
@@ -3932,7 +3932,7 @@
                     }
                 }]) && Ea(t.prototype, e), n && Ea(t, n), o
             }();
-        Z.find('[data-mdb-toggle="tab"], [data-mdb-toggle="pill"], [data-mdb-toggle="list"]').forEach(function(t) { Ma.getInstance(t) || new Ma(t) }), u(function() {
+        Z.find('[data-car-toggle="tab"], [data-car-toggle="pill"], [data-car-toggle="list"]').forEach(function(t) { Ma.getInstance(t) || new Ma(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn.tab, e.fn.tab = Ma.jQueryInterface, e.fn.tab.Constructor = Ma, e.fn.tab.noConflict = function() { return e.fn.tab = t, Ma.jQueryInterface })
         });
@@ -3955,7 +3955,7 @@
 
         function za(t) { return (za = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Ka = "tooltip",
-            At = "mdb.".concat(Ka),
+            At = "car.".concat(Ka),
             e = ".".concat(At),
             Ya = "hide.bs.tooltip",
             qa = "hidden.bs.tooltip",
@@ -4007,7 +4007,7 @@
                     }
                 }]) && Ua(t.prototype, e), n && Ua(t, n), o
             }();
-        Z.find('[data-mdb-toggle="tooltip"]').forEach(function(t) { nu.getInstance(t) || new nu(t) }), u(function() {
+        Z.find('[data-car-toggle="tooltip"]').forEach(function(t) { nu.getInstance(t) || new nu(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn[Ka], e.fn[Ka] = nu.jQueryInterface, e.fn[Ka].Constructor = nu, e.fn[Ka].noConflict = function() { return e.fn[Ka] = t, nu.jQueryInterface })
         });
@@ -4090,7 +4090,7 @@
                     key: "_setListeners",
                     value: function() {
                         var t = this;
-                        Ot.on(this._element, du, '[data-mdb-dismiss="toast"]', function() { return t.hide() })
+                        Ot.on(this._element, du, '[data-car-dismiss="toast"]', function() { return t.hide() })
                     }
                 }, { key: "_clearTimeout", value: function() { clearTimeout(this._timeout), this._timeout = null } }]) && au(t.prototype, e), n && au(t, n), o
             }();
@@ -4114,7 +4114,7 @@
 
         function Pu(t) { return (Pu = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Tu = "toast",
-            At = "mdb.".concat(Tu),
+            At = "car.".concat(Tu),
             e = ".".concat(At),
             Du = "show.bs.toast",
             Au = "shown.bs.toast",
@@ -4174,7 +4174,7 @@
             }
         }
         var Fu = "input",
-            Qu = "mdb.input",
+            Qu = "car.input",
             At = "form-outline",
             zu = "active",
             Ku = "form-notch",
@@ -4348,7 +4348,7 @@
             e = "keyup".concat(hs).concat(e),
             js = "disabled",
             ks = "show",
-            Ss = '[data-mdb-toggle="dropdown"]',
+            Ss = '[data-car-toggle="dropdown"]',
             xs = ".dropdown-menu",
             Ps = nt ? "top-end" : "top-start",
             Ts = nt ? "top-start" : "top-end",
@@ -4477,7 +4477,7 @@
 
         function Ks(t) { return (Ks = Object.setPrototypeOf ? Object.getPrototypeOf : function(t) { return t.__proto__ || Object.getPrototypeOf(t) })(t) }
         var Ys = "dropdown",
-            rt = "mdb.".concat(Ys),
+            rt = "car.".concat(Ys),
             rt = ".".concat(rt),
             qs = { offset: [0, 2], flip: !0, boundary: "clippingParents", reference: "toggle", display: "dynamic", popperConfig: null, dropdownAnimation: "on" },
             Vs = { offset: "(array|string|function)", flip: "boolean", boundary: "(string|element)", reference: "(string|element|object)", display: "string", popperConfig: "(null|object|function)", dropdownAnimation: "string" },
@@ -4500,7 +4500,7 @@
                 var t, e, n, r = zs(o);
 
                 function o(t, e) {
-                    ! function(t) { if (!(t instanceof o)) throw new TypeError("Cannot call a class as a function") }(this), (t = r.call(this, t, e))._config = t._getConfig(e), t._parent = o.getParentFromElement(t._element), t._menuStyle = "", t._popperPlacement = "", t._mdbPopperConfig = "";
+                    ! function(t) { if (!(t instanceof o)) throw new TypeError("Cannot call a class as a function") }(this), (t = r.call(this, t, e))._config = t._getConfig(e), t._parent = o.getParentFromElement(t._element), t._menuStyle = "", t._popperPlacement = "", t._carPopperConfig = "";
                     e = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
                     return "on" !== t._config.dropdownAnimation || e || t._init(), t
                 }
@@ -4527,13 +4527,13 @@
                     key: "_bindHideEvent",
                     value: function() {
                         var e = this;
-                        D.on(this._parent, Xs, function(t) { D.trigger(e._parent, Zs, { relatedTarget: t.relatedTarget }), e._menuStyle = e._menu.style.cssText, e._popperPlacement = e._menu.getAttribute("data-popper-placement"), e._mdbPopperConfig = e._menu.getAttribute("data-mdb-popper") })
+                        D.on(this._parent, Xs, function(t) { D.trigger(e._parent, Zs, { relatedTarget: t.relatedTarget }), e._menuStyle = e._menu.style.cssText, e._popperPlacement = e._menu.getAttribute("data-popper-placement"), e._carPopperConfig = e._menu.getAttribute("data-car-popper") })
                     }
                 }, {
                     key: "_bindHiddenEvent",
                     value: function() {
                         var e = this;
-                        D.on(this._parent, $s, function(t) { D.trigger(e._parent, tl, { relatedTarget: t.relatedTarget }), "static" !== e._config.display && "" !== e._menuStyle && (e._menu.style.cssText = e._menuStyle), e._menu.setAttribute("data-popper-placement", e._popperPlacement), e._menu.setAttribute("data-mdb-popper", e._mdbPopperConfig), e._dropdownAnimationStart("hide") })
+                        D.on(this._parent, $s, function(t) { D.trigger(e._parent, tl, { relatedTarget: t.relatedTarget }), "static" !== e._config.display && "" !== e._menuStyle && (e._menu.style.cssText = e._menuStyle), e._menu.setAttribute("data-popper-placement", e._popperPlacement), e._menu.setAttribute("data-car-popper", e._carPopperConfig), e._dropdownAnimationStart("hide") })
                     }
                 }, { key: "_dropdownAnimationStart", value: function(t) { "show" === t ? (this._menu.classList.add(rl, ol), this._menu.classList.remove(il)) : (this._menu.classList.add(rl, il), this._menu.classList.remove(ol)), this._bindAnimationEnd() } }, {
                     key: "_bindAnimationEnd",
@@ -4543,7 +4543,7 @@
                     }
                 }]) && Ws(t.prototype, e), n && Ws(t, n), o
             }();
-        Z.find('[data-mdb-toggle="dropdown"]').forEach(function(t) { cl.getInstance(t) || new cl(t) }), u(function() {
+        Z.find('[data-car-toggle="dropdown"]').forEach(function(t) { cl.getInstance(t) || new cl(t) }), u(function() {
             var t, e = r();
             e && (t = e.fn[Ys], e.fn[Ys] = cl.jQueryInterface, e.fn[Ys].Constructor = cl, e.fn[Ys].noConflict = function() { return e.fn[Ys] = t, cl.jQueryInterface })
         });
@@ -4569,7 +4569,7 @@
             }
         }
         var fl = "ripple",
-            pl = "mdb.ripple",
+            pl = "car.ripple",
             dl = "ripple-surface",
             hl = [".btn", ".ripple"],
             yl = "ripple-surface-unbound",
@@ -4673,7 +4673,7 @@
             }
         }
         var jl = "range",
-            kl = "mdb.range",
+            kl = "car.range",
             Sl = "thumb-active",
             xl = ".".concat("thumb-value"),
             rt = ".".concat("range"),
@@ -4741,4 +4741,4 @@
     function o(t) { if (r[t]) return r[t].exports; var e = r[t] = { i: t, l: !1, exports: {} }; return n[t].call(e.exports, e, e.exports, o), e.l = !0, e.exports }
     var n, r
 });
-//# sourceMappingURL=mdb.min.js.map
+//# sourceMappingURL=car.min.js.map
