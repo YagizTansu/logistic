@@ -9,7 +9,7 @@ Araç Filomuz
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
                                 <h2>Araç Filomuz</h2>
-                                <span>Lojistik tır filomuzla aşağıdaki hizmetleri verebilmekteyiz</span>
+                                <span>Tedarik tır filomuzla aşağıdaki hizmetleri verebilmekteyiz</span>
                             </div>
                                     <ul>
                                         <li> * Avrupa geneline düzenli parsiyel(LTL) /komple(FTL) taşıma</li>

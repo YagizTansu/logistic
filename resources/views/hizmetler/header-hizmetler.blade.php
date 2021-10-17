@@ -25,6 +25,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
+                        <div>
+                            <img src="@yield('src')" alt="" class="responsive2">
+                        </div>
                         <div class="left_sidebar">
 
                             <aside class="single_sidebar_widget post_category_widget">
@@ -33,17 +36,17 @@
                                 
                                     <li>
                                         <a href="/karayolu" class="d-flex">
-                                            <p>Karayolları Taşımacılığı</p>
+                                            <p>Karayolu Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/havayolu" class="d-flex">
-                                            <p>Havayolları Taşımacılığı</p>
+                                            <p>Havayolu Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>    
                                         <a href="denizyolu" class="d-flex">
-                                            <p>Denizyolları Taşımacılığı</p>
+                                            <p>Denizyolu Taşımacılığı</p>
                                         </a>
                                     </li>
                                     <li>

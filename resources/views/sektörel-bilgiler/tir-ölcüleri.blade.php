@@ -9,6 +9,9 @@ Tır Ölçüleri
                             <div class="section-tittle mb-35">
                                 <h2>TIR ÖLÇÜLERİ</h2>                           
                         </div>
+                        <div>
+        <img src="assets/img/about/tir-global.jpg" alt="" class="responsive">
+    </div>
                     </div>
                 </div>
             </div>

@@ -37,11 +37,6 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/dis-ticaret-kisaltmalari" class="d-flex">
-                                            <p>DIŞ TİCARET KISALTMALARI</p>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="/uld-ölcüleri" class="d-flex">
                                             <p>ULD ÖLÇÜLERİ</p>
                                         </a>
@@ -49,11 +44,6 @@
                                     <li>
                                         <a href="/konteyner-ölcüleri" class="d-flex">
                                             <p>KONTEYNER ÖLÇÜLERİ</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/kargo-hacim-hesaplama" class="d-flex">
-                                            <p>KARGO HACİM HESAPLAMA</p>
                                         </a>
                                     </li>
                                     <li>

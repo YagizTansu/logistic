@@ -1,25 +1,39 @@
 @section('title')
-    Karayolları
+    Karayolu
 @endsection
+
+@section('src')
+assets/img/about/yol-side.jpg
+@endsection
+
 @include('header')
     <main>
         <!--? slider Area Start-->
         @include('hizmetler.header-hizmetler')        
 
-                                <h2>Karayolları Taşımacılığı</h2>
-                                <span>Vizyonumuz</span>
+                                <h2>Karayolu Taşımacılığı</h2>
+                            
                             </div>
-                            <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replication of the designers is intended.</p>
-                            <p>Brook presents your services with flexible, convefnient and chient anipurpose layouts. You can select your favorite layouts.</p>
-                            <div class="section-tittle mb-35">
-                                <span>Misyonumuz</span>
+                            <p>Teknolojik sistemlerle donatılmış geniş tedarik araç filosu, gelişmiş bilgi teknolojileriyle güçlendirilmiş altyapısı ve uzman ekibiyle Global Gate Lojistik, kusursuz hizmet ilkesi doğrultusunda siz müşterilerine komple ve parsiyel taşıma hizmeti vermektedir.</p>
+                           <p>
+                           Global Gate Lojistik;
+Tamamı çevre koruma standartlarına uygun yeşil ve sessiz motor özellikleri ve Uydu Takip sistemi ile donatılmış olan tedarik araç filosuyla; komple/parsiyel taşımaları uluslararası karayolu nakliye rejimine en uygun şekilde gerçekleştirmektedir.
+
+                           </p>
+                                        <p>Global Gate Lojistik;
+                Tüm Avrupa ülkelerine ve CIS ülkelerine her hafta rutin olarak servis vermektedir.
+                Ayrıca; ihracat ve ithalatta terminli olan yüklemeleriniz için, maliyet ve transit süre açısından havayoluna alternatif olan özel minivan araçlarımızla, Avrupa geneline/ genelinden 36-48 saatte adrese teslim imkanı sunmaktadır.</p>
+                <p>Karayolu Taşımacılığı Hizmetlerimiz;</p>                                
+                             </div>
+                                    <ul class="list-kara">
+                                        <li> * Avrupa ve CIS ülkeleri geneline haftalık rutin parsiyel (LTL) /komple FTL) taşıma</li>
+                                        <li> * Full tır ekspres taşıma</li>
+                                        <li> * Gabari dışı taşıma ve Proje taşımacılığı</li>
+                                        <li> * Askılı tekstil taşıma</li>
+                                        <li> * Yurtdışı gümrükleme işlemleri</li>
+                                        <li> * Minivan servisi</li>
+                                    </ul>
                             </div>
-                            <p>ASL Lojistik olarak,
-                                    İnsana ve çevreye duyarlı, değişime ve gelişime açık,
-                                    teknolojiyi takip eden ve uygulayan,
-                                    çalışanlarının katılım ve yaratıcılığından güç alan,
-                                    sosyal sorumluluk ve kaliteli hizmet bilinciyle mükemmellik anlayışına sahip bir lojistik kuruluşu
-                                    olmaktır.</p>
                             
                         </div>
                     </div>

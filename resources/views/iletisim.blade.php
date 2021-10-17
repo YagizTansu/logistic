@@ -10,8 +10,8 @@
                                 <h2>İletişim</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.blade.php">Anasayfa</a></li>
-                                        <li class="breadcrumb-item"><a href="#">İletişim</a></li>
+                                        <li class="breadcrumb-item"><a href="/anasayfa">Anasayfa</a></li>
+                                        <li class="breadcrumb-item"><a href="/">İletişim</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -65,29 +65,28 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Alsancak, İzmir</h3>
-                                <p>Rosemead, CA 91770  Rosemead, CA 91770 Rosemead, CA 91770 Rosemead, CA 91770</p>
+                                <h3>Alsancak Konak İzmir / Türkiye</h3>
+                                <p>1476 sokak No:2 Kat:6 D:4 AKSOY PLAZA</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
+                                <h3>+90 232 683 04 00</h3>
+                                <p></p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-printer"></i></span>
                             <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
+                                <h3>+90 232 683 05 00</h3>
+                                <p></p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>globalgate@mail.com</h3>
-                                <p>Send us your query anytime!</p>
+                                <h3>sales-team@tr-globalgate.com</h3>
                             </div>
                         </div>
                     </div>

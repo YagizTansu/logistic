@@ -12,7 +12,7 @@
       </div>
       <div class="row pb-5">
         <div class="col d-flex justify-content-center ">
-          <p class="text-slogan">LOJİSTİK OPERASYONLARINIZ İÇİN GÜVENİLİR ÇÖZÜM ORTAĞINIZ</p>
+          <p class="text-slogan">LOJİSTİK DÜNYASINA AÇILAN KAPINIZ</p>
         </div>
       </div>
       <div class="row d-flex justify-content-between">
@@ -76,11 +76,11 @@
             <ul class="social-network social-circle">
               <li>
                 <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                <h5 style="color: white;">+1 253 565 2365</h5>
+                <h5 style="color: white;">+90 232 683 04 00</h5>
               </li>
               <li>
                 <span class="contact-info__icon"><i class="ti-email"></i></span>
-                <h5 style="color: white;">globalgate@gmail.com</h5>
+                <h5 style="color: white;">sales-team@tr-globalgate.com</h5>
               </li>
             </ul>
           </div>
@@ -88,7 +88,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <p class="text-center" style="color: white;">Copyright 2021 - GLOBAL GATE Logistic. All rights reserved.</p>
+          <p class="text-center" style="color: white;"> GLOBAL GATE ULUSLARARASI TAŞIMACILIK VE LOJİSTİK HİZ.TİC.LTD.ŞTİ. - All rights reserved 2021.</p>
         </div>
       </div>
 

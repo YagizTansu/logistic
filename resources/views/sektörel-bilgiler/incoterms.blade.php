@@ -1,20 +1,485 @@
-
 @section('title')
 Incoterms
 @endsection
 @include('sektörel-bilgiler.header-sektörel')
 <div class="col-lg-9 col-md-12">
-                        <div class="content-part-index mb-50">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle mb-35">
-                                <h2>INCOTERMS</h2>                           
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="content-part-index mb-50">
+        <!-- Section Tittle -->
+        <div class="section-tittle mb-35">
+            <h2>INCOTERMS</h2>
+
+            ICC (International Chamber Of Commerce) Uluslararası Ticaret Odaları Birliği, Türkiye'nin de taraf olduğu uluslararası ticaretin alcı, satıcı ve nakliyeci açısından risk ve sorumluluklarını tarif eden bir kurumdur. Uluslararası ticaret, bu odanın belirlediği kurallar çerçevesinde gerçekleşir. Bu kurum, alıcı ile satıcı arasında yapılan ticarette malın teslim şekli ile ilgili olasılıkları genel başlıklar altında toplamıştır. Bu teslim şekilleri, INCOTERMS'ler olarak adlandırılır.
+
+            Yeni bin yıla girerken INCOTERMS'ler bu kurum tarafından INCOTERMS 2000 (2000 International Commercial Terms) adı altında revize edilmiştir. Türkiye bu konvansiyona taraf olduğu için nakliyeciniz veya yurtdışı müşterinizle düşeceğiniz anlaşmazlıklarda yargının vereceği kararlar da INCOTERMS 2000 çerçevesinde gerçekleşecektir.
+
+            <hr>
+            <h3>1.EXWORK (İŞYERİNDE TESLİM)</h3>
+            Bu teslim şeklinde satıcı, alıcının mallarını kendi mülkü veya belirlenen başka bir yerde (fabrika, depo v.s.) ihracat gümrüğünü yapmadan ve bir araca yüklemeden teslim eder. Bu tip teslimde satıcı masraf ve sorumluluğu minimum düzeyde iken, alıcı maksimum düzeyde masraf ve sorumluluğu ve bu sorumluluktan doğan riskleri üstlenir. Satıcının, sorumluluğundan kaynaklanan risk malın alıcı veya temsilcisi aracına yüklemeye başlandığı anda biter. Satıcı, sorumluluğunda olmamasına rağmen eğer taraflar satış sözleşmesine koyarlarsa satıcı malı araca yükler. Ancak, malın araca yüklenmesi esnasında doğabilecek kayıp ve hasar riskleri alıcıya aittir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1) Malların Kontrata Uygunluğu : Satıcı, satış sözleşmesinde belirtilen özellikteki malları ve faturayı alıcıya vermelidir.</li>
+                <li>A2) Lisanslar, Yetkiler ve Formaliteler : Satıcı, alıcıya daha sonra gereksinim duyabileceği riskler, talepler, masraflar, resmi ve resmi olmayan ihracat belgelerini sağlamalıdır.</li>
+                <li>A3) Taşıma ve Sigorta Sözleşmesi : Her ikisi bakımından sorumluluğu yok.</li>
+                <li>A4) Teslimat : Satıcı, satış sözleşmesinde belirtilen tarihte eğer satış sözleşmesinde aksi belirtilmemiş ise yüklemeden alıcının yönetimine teslim etmelidir.</li>
+                <li>A5) Risklerin Üstlenilmesi : Satıcı, B5 maddesindeki açıklamalar çerçevesinde malların A4 maddesine uygun bi şekilde teslimatı yapılana kadar bütün riskleri taşır</li>
+                <li>A6) Masrafların Paylaşımı : B6 maddesinin koşullarına bağlı olarak, A4 çerçevesinde teslimat yapılana kadar bütün masrafları ödemek zorundadır.</li>
+                <li>A7) Alıcının Bilgilendirilmesi : Malları ne zaman ve nerede yükleneceğine dair bilgiyi alıcıya vermelidir.</li>
+                <li>A8) Dağıtım Kanıtı ve Nakliye Belgesi : Bir yükümlülüğü yok.</li>
+                <li>A9) Kontrol, Paketleme, Etiketleme : Satıcı, malların alıcı yönetimine verilmesi için gerekli olan kontrollere ilişkin masrafları (kalite kontrolü, ölçme, tartma vs.) ödemelidir.</li>
+                <li>A10) Diğer Yükümlülükler : Satıcı, alıcıya daha sonra karşılaşabileceği riskleri, harcamaları azaltacak ve herhangi bir ülkeden transit geçebilmesini sağlayacak belge ve dökümanları vermelidir.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Satış sözleşmesinde belirtilen ödeme yapılmalıdır.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Malların ihracat ve ithalat gümrük işlemleri sırasındaki risk ve harcamalar alıcıya aittir.</li>
+                <li>B3) Taşıma ve Sigorta Sözleşmeleri : Her ikisi bakımından sorumludur.</li>
+                <li>B4) Teslim Alma : Mallar A4, A7 ve B7 kurallarına uygun dağıtıldığında teslim alınmalıdır.</li>
+                <li>B5) Risklerin Üstlenilmesi : Alıcı, malların kayıp ve hasar riskinden A4 maddesi gereği teslim aldıktan sonra sorumludur.</li>
+                <li>B6) Masrafların Paylaşımı : Alıcı, malları teslim aldıktan sonra bütün masrafları, ihracat gümrük işlemleri için gerekli masrafları ve satıcının A2 maddesi çerçevesinde yaptığı masrafları karşılçerçevesinde</li>
+                <li>B7) Satıcının Bilgilendirilmesi : Alıcı, malların ne zaman ve nerede teslim alınacağı bilgisini önceden satıcıya bildirmelidir.</li>
+                <li>B8 Teslimat Onayı ve Nakliyat Bilgileri : Alıcı, satıcıya malları teslim aldığına dair bir belge sunmalıdır.</li>
+                <li>B9 Malların Denetlenmesi : Yükleme öncesi mallara yapılan denetimlerin masraflarını ödemelidir.</li>
+                <li>B10 Diğer Yükümlülükler : Alıcı, A10'da belirtilen belgeler için bütün masrafları ödemelidir.</li>
+            </ul>
+
+            <hr>
+            <h3>2.FCA (NAKLİYECİ TESLİMİ)</h3>
+
+            FCA satıcının, malları alıcının belirlediği nakliyeciye ihracat gümrük işlemleri yapılmış bir şekilde teslimi olarak bilinir. Teslimat için seçilen yerin, malların boşalıtılması ve yüklenmesine uygun yerler olması zorunluluğu vardır. Eğer teslimat ihracatçının yerinde (fabrika, depo veya işyeri) olursa, ihracatçı yüklemeden sorumlu olacaktır. Ancak teslimat başka bir yere olursa ihracatçı malların boşaltılmasından sorumlu olmayacaktır.
+
+            Bu teslim şekli çok çeşitli taşıma alternatiflerinin olduğu durumlada kullanılır. Nakliyeci taşıma sözleşmesinde yer alan, taşıma işini hava, kara, deniz, tren veya bunların hangi kombinasyonlarına göre taşımasını gerçekleştiren kişidir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1) Malların Kontrata Uygunluğu : Satıcı, satış sözleşmesinde belirtilen özellikleri malları ve faturayı alıcıya vermelidir.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formaliteler : Satıcı, malların ihracı için gerekli izinleri almalı ve gümrük işlemlerini yapmalı masraflarını ödemelidir.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : Taşıma sözleşmesi bakımından bir yükümlülük olmamakla birlikte alıcı tarafından isternirse, satıcı, nakliye için alıcının risk ve masrafları üstlendiği kurallar çerçevesinde sözleşme yapılabilir. Sigorta ile ilgili herhangi bir yükümlülüğü yok.</li>
+                <li>A4)Teslimat : Satıcı, malları nakliyeciye veya alıcının görevlendirdiği birine satış sözleşmesinde belirlenen yer ve tarihte teslim etmelidir.</li>
+                <li>A5)Risklerin Üstlenilmesi : Satıcı, malların A4 maddesine uygun bir şekilde teslimatı yapılana kadar bütün riskleri taşır.</li>
+                <li>A6)Masrafların Paylaşımı : A4 çerçevesinde teslimat yapılana kadar bütün masrafları ödemelidir.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Satıcı, alıcıya A4 çerçevesinde malları teslim ettiği bilgisini vermelidir. Eğer zamanında ve doğru yerde teslimat yapılmamışsa alıcı bilgilendirilmelidir.</li>
+                <li>A8)Teslimat Onayı ve Nakliye Belgeleri : Satıcı A4 çerçevesinde yapımış olduğu mal teslimatının kanıtını sonmak zorundadır.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Satıcı, malların alıcı yönetimine verilmesi için gerekli olan kontrollere ilişkin masrafları (kalite kontrolü, ölçme, tartma vs.) ödemelidir.</li>
+                <li>A10)Diğer Yükümlülükler : Satıcı, alıcıya daha sonra karşılaşabileceği riskleri, harcamaları azaltacak ve herhangi bir ülkeden transit geçebilmesini sağlayacak belge ve dökümanları vermelidir.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1)Ödemenin Yapılması : Satış sözleşmesinde belirtilen ödeme yapılmalıdır.</li>
+                <li>B2)Lisanslar, Yetkiler ve Formaliteler : Malların ithalat gümrük işlemleri sırasındaki risk ve harcamalar alıcıya aittir.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Eğer satış kontratına, satıcının anlaşma yapacağı konmadı ise, belirlenen yerden malların alınması için bir nakliye sözleşmesi yapmak durumundadır. Sigorta sözleşmesi yapma zorunluluğu yoktur.</li>
+                <li>B4)Teslim Alma : Mallar, A4, A7 ve B7 kurallarına uygun dağıtıldığında teslim alınmalıdır.</li>
+                <li>B5)Risklerin Üstlenilmesi : Alıcı, malların kayıp ve hasar riskinden A4 maddesi gereği teslim aldıktan sonra sorumludur.</li>
+                <li>B6)Masrafların Paylaşımı : Alıcı, malların ihracat gümrük işlemleri yapılmış bir şekilde teslim aldıktan sonra bütün masrafları ödemek durumundadır.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Alıcı, malların ne zaman ve nerede teslim alınacağı bilgisini önceden satıcıya bildirmelidir.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Alıcı, satıcıya malları teslim aldığına dair bir belge sunmalıdır.</li>
+                <li>B9Malların Denetlenmesi : Yükleme öncesi mallara yapılan denetimlerin masraflarını ödemelidir.</li>
+                <li>B10Diğer Yükümlülükler : Alıcı A10 da belirtilen belgeler için bütün masrafları ödemelidir.</li>
+            </ul>
+
+            <hr>
+            <h3>3.FAS (GEMİNİN BORDASINDA TESLİM)</h3>
+
+            FAS, satıcının malları ihracat gümrük işlemlerini yapmış bir şekilde daha önce belirlenmiş limanda malların gemi doğrultusunda rıhtıma veya mavnaya teslim etmesidir. Bunun anlamı alıcının limandaki yere yerleştirme işlemi bittikten sonra masrafları üstleneceğidir. Daha önceki incoterms versiyonunda alıcı ihracak gümrük işlemlerini yapmakta olduğuna dikkat edilmelidir. Bu term sadece deniz ve karasuyu taşımacılığında kullanılabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Satıcı, satış sözleşmesinde belirtilen özellikteki malları faturayı alıcıya vermelidir.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formaliteler : Satıcı, malların ihracı için gerekli izinleri almalı, gümrük işlemlerini yapmalı ve masraflarını ödemelidir.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : Taşıma ve sigorta sözleşmeleri bakımından bir yükümlülüğü yoktur.</li>
+                <li>A4)Teslimat : Satıcı, teslim edeceği malları belirlenen limandaki yükleme yapılacak geminin yanına, kararlaştırılan tarihte ve limanın gümrük yönetmelikleri çerçevesinde teslim etmelidir.</li>
+                <li>A5)Risklerin Üstlenilmesi : Satıcı, malların A4 maddesinde uygun bir şekilde teslimatı yapılana kadar bütün riskleri taşır.</li>
+                <li>A6)Masrafların Paylaşımı : A4 çerçevesinde teslimat yapılana kadar, ihracat gümrük masrafları dahil bütün masrafları ödemelidir.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Satıcı, alıcıya A4 çerçevesinde malları teslim ettiği bilgisini vermelidir. Eğer zamanında ve doğru yerde teslimat yapılmamışsa alıcı bilgilendirilmelidir.</li>
+                <li>A8)Teslimat Onayı ve Nakliye Belgeleri : Satıcı, kendi yaptığı masraflarla A4 çerçevesinde yaptığı mal teslimatının kanıtını alıcıya sunmak zorundadır.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Satıcı, malların alıcı yönetimine verilmesi için gerekli olan kontrollere ilişkin masrafların (kalite kontrolü, ölçme, tartma vs.) ödemelidir.</li>
+                <li>A10)Diğer Yükümlülükler : Satıcı, alıcıya daha sonra karşılaşabileceği riskleri, harcamaları azaltacak ve herhangi bir ülkeden transit geçebilmesini sağlayacak belge ve dökümanları vermelidir.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1)Ödemelerin Yapılması : Satış sözleşmesinde belirtilen ödeme yapılmalıdır.</li>
+                <li>B2)Lisanslar, Yetkiler ve Formaliteler : Malların ithalat gümrük işlemleri sırasındaki risk ve harcamalar alıcıya aittir.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Alıcı belirlenen gemiden malların nakliyesi için bir nakliye sözleşmesi imzalamalıdır. Sigorta yaptırma zorunluluğu yoktur.</li>
+                <li>B4)Teslim Alma : Malların A4 kurallarına uygun dağıtıldığında teslim alınmalıdır.</li>
+                <li>B5)Risklerin Üstlenilmesi : Alıcı, malların kayıp ve hasar riskinden A4 maddesi gereği teslim aldıktan sonra sorumludur.</li>
+                <li>B6)Masrafların Paylaşımı : Alıcı, malların ihracat gümrük işlemleri yapılmış bir şekilde teslim aldıktan sonra bütün masrafları ödemek durumundadır.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Alıcı, malların hangi limandaki gemide ne zaman teslim alınacağı bilgisini önceden satıcıya bildirmelidir.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Alıcı, satıcının malları teslim ettiğine dair belgeyi kabul etmelidir.</li>
+                <li>B9Malların Denetlenmesi : Yükleme öncesi mallara yapılan denetimlerin masraflarını ödemelidir.</li>
+                <li>B10Diğer Yükümlülükler : Alıcı A10'da belirtilen belgeler için bütün masrafları ödemelidir.</li>
+            </ul>
+
+            <hr>
+            <h3>4.FOB (GÜVERTEDE TESLİM)</h3>
+
+            FOB'un anlamı satıcının malları belirlenen limandaki belirlenen gemiye yüklendikten sonra teslim ettiği şeklidir. Bu termde de satıcının mallar için bütün ihracat gümrük işlemlerini tamamlamış olması gerekir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Satıcı, satış sözleşmesinde belirtilen özellikteki malları ve faturayı alıcıya vermelidir.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formaliteler : Satıcı, malların ihracı için gerekli izinleri almalı, gümrük işlemlerini yapmalı ve masraflarını ödemelidir.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : Taşıma ve sigorta sözleşmeleri bakımından bir yükümlülüğü yoktur.</li>
+                <li>A4)Teslimat : Satıcı, teslim edeceği malları belirlenen limandaki yükleme yapılacak gemiye, kararlaştırılan tarihte ve limanın gümrük yönetmelikleri çerçevesinde teslim etmelidir.</li>
+                <li>A5)Risklerin Üstlenilmesi : Satıcı, malların A4 maddesine uygun bir şekilde teslimatı yapılana kadar bütün riskleri taşır.</li>
+                <li>A6)Masrafların Paylaşımı : A4 çerçevesinde teslimat yapılana kadar, ihracat gümrük masrafları ve liman masrafları dahil ödemelidir.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Satıcı, alıcıya A4 çerçevesinde malları teslim ettiği bilgisini vermelidir. Eğer zamanında ve doğru yerde teslimat yapılmamışsa alıcı bilgilendirilmelidir.</li>
+                <li>A8)Teslimat Onayı ve Nakliye Belgeleri : Satıcı, kendi yaptığı masraflarla A4 çerçevesinde yaptığı mal teslimatının kanıtını alıcıya sunmak zorundadır.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Satıcı, malların alıcı yönetimine verilmesi için gerekli olan kontrollere ilişkin masrafları (kalite kontorlü, ölçme, tartma vs.) ödemelidir.</li>
+                <li>A10)Diğer Yükümlülükler : Satıcı, alıcıya daha sonra karşılaşabileceği riskleri, harcamaları azaltacak ve herhangi bir ülkeden transit geçebilmesini sağlayacak belge ve dökümanları vermelidir.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1)Ödemenin Yapılması : Satış sözleşmesinde belirtilen ödeme yapılmalıdır.</li>
+                <li>B2)Lisanslar, Yetkiler ve Formaliteler : Malların ithalat gümrük işlemlerinin yapılması ve bundan kaynaklanabilecek risk ve harcamalar alıcıya aittir.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Alıcı belirlenen gemiden malların nakliyesi için bir nakliye sözleşmesi imzalanmalıdır. Sigorta yaptırma zorunluluğu yoktur.</li>
+                <li>B4)Teslim Alma : Mallar A4 kurallarına uygun dağıtıldığında teslim alınmalıdır.</li>
+                <li>B5)Risklerin Üstlenilmesi : Alıcı, malların kayıp ve hasar riskinden A4 maddesi gereği teslim aldıktan sonra sorumludur.</li>
+                <li>B6)Masrafların Paylaşımı : Alıcı, malların ihracat gümrük işlemleri yapılmış bir şekilde teslim aldıktan sonra Gemi navlunu ve varış yerindeki masraflar dahil bütün masrafları ödemek durumundadır.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Alıcı, malların hangi limandaki gemide ne zaman teslim alınacağı bilgisini açık olarak önceden satıcıya bildirilmelidir.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Alıcı, satıcının malları teslim ettiğine dair belgeyi kabul etmelidir.</li>
+                <li>B9Malların Denetlenmesi : Yükleme öncesi mallara yapılan denetimlerin masraflarını ödemelidir.</li>
+                <li>B10Diğer Yükümlülükler : Alıcı, A10'da belirtilen belgeler için bütün masrafları ödemelidir.</li>
+            </ul>
+
+            <hr>
+            <h3>5.CFR (MASRAF VE NAVLUN)</h3>
+
+            "Mal Bedeli ve Navlun", işleme konu olan malların belirtilen varış yerine kadar taşınması için gerekli olan masrafları ve navlun bedelini satıcının ödemesi anlamına gelir. Ancak, mallara ilişkin kayıp ve hasar riski ile birlikte, malların gemi bordasına aktarılmasından itibaren meydana gelebilecek olaylardan kaynaklanan bütün ek masraflar, mallar yükleme limanında gemi bordasına geçtiği andan itibaren satıcıdan alıcıya devrolur. CFR terimi, malların ihraç işlemlerinin satıcı tarafından yapılmasını öngörür. Bu terim yalnızca deniz ya da nehir taşımacılığında kullanılabilir. Eğer taşıma işleminde, örneğin roll-on/roll-off ya da konteyner trafiğinde olduğu gibi "gemi bordası"nın herhangi bir pratik anlamı kalmamışsa, bu durumda CPT teriminin kullanılması daha uygun olacaktır.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisans Yetki ve Formaliteler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için bütün formaliteleri tamamlamak.</li>
+                <li>A3) Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Masrafları kendisine ait olmak üzere, malların sözleşmede tanımlanan türde mallar için normal olarak kullanılan bir deniz (ya da duruma göre nehir) taşıma aracı ile belirtilen varış limanına olağan bir rota izlenerek taşınması amacıyla, yine olağan koşullar içeren bir sözleşme akdetmek. b) Sigorta sözleşmesi Yükümlülüğü yok.</li>
+                <li>A4)Teslimat : Malları, belirtilen tarihte ya da öngörülen süre içerisinden yükleme limanında gemi bordasına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi : B.5. hükümlerine tabi olmak üzere, malların yükleme limanında gemiye aktarıldığı ana kadar olan bütün kayıp ve hasar risklerini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6. hükümlerine tabi olmak üzere; . Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları, ayrıca, taşıma sözleşmesi sırasında taşımacı kuruluşların malların gemiye yüklenmesi ve boşaltma limanın da gemiden indirilmesi çerçevesinde talep edecekleri de dahil olmak üzere A.3.a'dan kaynaklanan bütün masraflarla birlikte navlun bedelini ödemek. . İhracat işlemlerinde geçerli vergi, resim ve her türden resmi ödemelerle birlikte, malların gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların gemi bordasına aktarıldığını bildirmek, gerekse de malları teslim alma yönünde normal olarak gerekli hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Satıcı, masrafını kendi karşılayarak gecikmeksizin varış limanı için bir nakliye dökümanı sağlamalıdır.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Satıcı, malların alıcı yönetimine verilmesi için gerekli olan kontrollere ilişkin masrafları (kalite kontrolü ölçme tartma vs.) ödemelidir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede çıkarılan belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8.'dekiler hariç) alıcıya yardımcı olmak, Talep üzerine, alıcıya, siğorta işlemleriyle ilgili gerekli bilgileri sağlamak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde öngörüldüğü şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu bütün gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış limanında bulunan taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Mallar yükleme limanında gemiye aktarıdığı andan itibaren bu mallarla ilgili her tür kayıp ve hasar riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, yükleme için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili bütün kayıp ve hasar riskini üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3. hükümlerine tabi olmak üzere, malların A.4.uyarınca tesliminden itibaren bu mallarla ilgili her türlü masrafı üstlenmek; ayrıca, eğer bu tür masraflar normal olarak taşıma sözleşmesi yapan taşıyıcı firmalarca karşılanmıyorsa, gerek malların varış limanı öncesi transit geçişleri, gerekse de mavna ve iskele masrafları da dahil olmak üzere boşaltma işlemleri sırasında ortaya çıkan masrafları karşılamak.</li>
+                <li>Eğer alıcı B.7. uyarınca duyuruda bulunmamışsa, belirlenen tarihten ya da yükleme için tesbit edilen sürenin bitiminden itibaren bu nedenle doğacak bütün ek masrafları yüklenir. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemleriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Malların yükleme zamanını ve /veya varış limanını belirleme hakkına sahip olduğu durumlarda, satıcıya bu hususlarla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8. uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştirildiği ülkenin resmi görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafının karşılamak.</li>
+                <li>B10Diğer Yükümlülükler : A.10. da sözü edilen belgelerin ya da bunlara eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.</li>
+            </ul>
+
+            <hr>
+            <h3>6.CIF (MALİYET, SİGORTA VE NAVLUN)</h3>
+
+            " Mal Bedeli, Siğorta ve Navlun " teriminde, satıcı, CFR teriminde olan yükümlülükleri aynen üstlenmekte, ancak bunlara ek olarak taşıma sırasında malların kayıp ve hasar riskine karşı deniz siğortası sağlama yükümlülüğünü de almaktadır. Burada siğorta sözleşmesini akdetmek ve siğorta primini ödemek, satıcıya düşmektedir. Alıcının dikkate alması gereken husus, CIF teriminde satıcıdan yalnızca asgari düzeyde bir sigorta kapsamı sağlanmasının beklendiğidir. CIF terimi, malların ihraç işlemlerinin satıcı tarafından yapılmasını öngörür. Bu terim, yalnızca deniz ya da nehir taşımacılığında kullanılabilir. Eğer taşıma işleminde, örneğin roll-on/roll-off ya da konteyner trafiğinde olduğu gibi "gemi bordası" nın herhangi bir pratik anlamı kalmamışsa, bu durumda CIP teriminin kullanılması daha uygun olacaktır.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için gerekli bütün formaliteleri tamamlamak.</li>
+                <li>A3) Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Masrafları kendisine ait olmak üzere, malların, sözleşmede tanımlanan türde mallar için normal olarak kullanılan bir deniz ( ya da duruma göre nehir ) taşıma aracı ile olağan bir rota izlenerek, belirlenen varış limanına taşınması amacıyla, yine olağan koşullar içeren bir sözleşme akdetmek. b) Sigorta sözleşmesi Sözleşmede yer alan anlaşmaya uyarınca, alıcının ya da işleme konu olan mallarla sigorta kapsamına girecek türde bir ilişkisi olan başka herhangi bir şahsın doğrudan sigorta şirketinden tazminat talep edebileceği bir yük siğortası sözleşmesini kendi masraflarıyla akdetmek; alıcıya, siğorta poliçesini ya da siğorta kapsamını gösterir başka herhangi bir belgeyi sağlamak. Sözleşme, bu alanda güvenilir bir nitelik taşıyan sigortacılar ya da sigorta şirketleri ile yapılacak ve eğer aksi yönde bir anlaşmanın varlığı ifade edilmemişse, Kargo Hükümleri Kurumu (Londra Sigortacılar Kurumu) 'nun asgari kapsam hükümlerine ya da bu alanda geçerli başka hükümlere uygunluk gösterecektir. Sigortanın geçerlilik süresi de B.5. ve B.4. hükümlerine uygun olarak belirlenecektir. Alıcı tarafından talep edilmesi halinde satıcı, masrafları alıcıya ait olmak üzere ve eğer olanak varsa, savaş, grev, ihtilal ve halk ayaklanması halleriyle ilgili sigorta işlemlerini de yaptıracaktır. Sigorta kapsamı, asgari olarak, satış sözleşmesinde belirtilen mal bedeli artı yüzde on (toplam % 110 ) biçiminde belirlenecek ve yine satış sözleşmesinde yer alan para cinsinden karşılanacaktır.</li>
+                <li>A4)Teslimat : Malları, belirtilen tarihte ya da öngörülen süre içeresinde, yükleme limanındaki geminin bordasına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların yükleme limanında gemiye aktarıldığı ana kadar olan bütün kayıp ve hasar risklerini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6. hükümlerine tabi olmak üzere: Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları; ayrıca, taşıma sözleşmesi sırasında taşımacı kuruluşların malların gemiye yüklenmesi ve boşaltma limanında da gemiden indirilmesi çerçevesinde talep edecekleri de dahil olmak üzere, A.3. den kaynaklanan bütün masraflarla birlikte navlun bedelini ödemek. İhracat işlemlerinde geçerli vergi, resim ve her türden resmi ödemelerle birlikte, gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların gemi bordasına aktarıdığını bildirecek, gerekse de malları teslim alma yönünde normal olarak gerekli hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Eğer başka türlü bir anlaşmaya varılmamışsa, masrafları kendisine ait olmak üzere, alıcıya, belirlenen varış limanı için gerekli mutad taşıma belgesini geçikmeksizin sağlamak. Sözü edilen bu belge (örneğin devri kabil bir konişmento, devri gayri kabil bir deniz ya da nehir taşıma senedi ) satış işlemine tabi olan malları kapsamalı, yükleme için üzerinde anlaşmaya varılan tarihi taşımalı, alıcının varış noktasında mallar üzerinde hak iddia edebilmesine olanak tanımalı ve eğer başka türlü bir anlaşma yapılmamışsa da, alıcıya, transit halindeki mallarını, taşıma belgesini (devri kabil konişmento ) bir başka alıcıya devir yoluyla ya da taşıyıcıya talimat vererek satma imkanı vermelidir. Eğer bu türden bir taşıma belgesi birden çok orijinal kopya halinde hazırlanmışsa, bunların tamamı alıcıya teslim edilmelidir. Eğer taşıma belgesinde mal sahibi ile taşımacı arasında yapılan sözleşmeye atıfta bulunuyorsa, satıcı aynı zamanda bu sözleşmenin bir kopyasını da sağlanmalıdır. Satıcı ile alıcının birbirleriyle elektronik iletşim araçları kullanarak haberleşme kararı aldıkları durumlarda, daha önceki paragraflarda sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4.uyarınca teslimi açısından gerekli olan kontrol işemleriyle (örneğin kalite kontrolü, ölçüm, tartım, sayım) ilgili masrafları karşılamak. Malların, kendisi tarafından düzenlenen taşıma işlemi için gerekli biçimde ambalajlanmasını kendi hesabından karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak yüklenmesi söz konusu değilse). Ambalajlar, gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, maları ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkeden çıkarılan belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8. dekiler hariç) alıcıya yardımcı olmak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirttiği şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu bütün gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış limanında bulunan taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Mallar yükleme limanında gemiye aktarıdığı andan itibaren bu mallarla ilgili her tür kayıp ve hasar riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, yükleme için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili bütün kayıp ve hasar riskini üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3. hükümlerine tabi olmak üzere, malların A.4.uyarınca tesliminden itibaren bu mallarla ilgili her türlü masrafı üstlenmek; ayrıca, eğer bu tür masraflar normal olarak taşıma sözleşmesi yapan taşıyıcı firmalarca karşılanmıyorsa, gerek malların varış limanı öncesi transit geçişleri, gerekse de mavna ve iskele masrafları da dahil olmak üzere boşaltma işlemleri sırasında ortaya çıkan masrafları karşılamak. Eğer alıcı B.7. uyarınca duyuruda bulunmamışsa, belirlenen tarihten ya da yükleme için tesbit edilen sürenin bitiminden itibaren bu nedenle doğacak bütün ek masrafları yüklenir. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemleriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Malların yükleme zamanını ve /veya varış limanını belirleme hakkına sahip olduğu durumlarda, satıcıya bu hususlarla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8. uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştirildiği ülkenin resmi görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafının karşılamak.</li>
+                <li>B10Diğer Yükümlülükler :A.10. da sözü edilen belgelerin ya da bunlara eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.Talep üzerine, satıcıya, sigorta işlemlerinin gerçekleştirilmesi açısından gerekli bilgileri sağlamak</li>
+            </ul>
+
+            <hr>
+            <h3>7.CPT (NAVLUN ÜCRETİ ÖDENMİŞ TESLİM)</h3>
+
+            "Taşıma ücreti ödenmiş olarak..." terimi, malların belirlenen varış yerine taşınmasında navlunun satıcı tarafından ödendiğini anlatır. Malların taşıyıcıya aktarılmasından sonra mallarla ilgili kayıp ve hasar riski, ayrıca bu teslim işleminden sonra meydana gelebilecek olayların yarattığı bütün ek masraflar satıcıdan alıcının üzerine geçer. "Taşıyıcı ", bir taşıma sözleşmesi çerçevesinde malların demiryolu, karayolu, denizyolu, havayolu, nehir ya da bunlardan bazılarının birarada kullanılmasıyla taşınması işlemini bizzat üzerine alan ya da bunu sağlama taahhüdünde bulunan herhangi bir şahsı tanımlar. Eğer malların belirlenen varış yerine ulaştırılması için birbiri ardına taşıyıcılar kullanılıyorsa, malların bunlardan ilk taşıyıcıya aktarılmasıyla birlikte risk de devredilmiş olur. CPT terimi, malların gümrük çıkış işlemlerinin satıcı tarafından tamamlanmasını öngörür, Bu terim, çok vasıtalı olanlar da dahil her tür taşımacılıkta kullanabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için gerekli bütün formaliteleri tamamlamak.</li>
+                <li>A3) Taşıma ve Sigorta Sözleşmesi : ) Taşıma sözleşmesi Masrafları kendisine ait olmak üzere, malların olağan bir rota izlenerek mutad biçiminde belirlenen varış yerinden üzerinde anlaşmaya varılmış noktaya taşınması için sözleşme akdetmek. Eğer üzerinde anlaşılmış bir varış noktası yoksa ve / veya böyle bir nokta mevcut uygulamada da belirlenmemişse, bu durumda satıcı, belirlenen varış alanı içinde böyle bir noktayı kendi amaçlarına en uygun düşecek biçimde belirleyebilir. b) Sigorta sözleşmesi Yükümlülüğ yok.</li>
+                <li>A4)Teslimat : Malları, belirtilen tarihte ya da öngörülen süre içerisinde belirlenen varış yerine ulaştırılmak üzere taşıyıcıya, ya da eğer taşıma işleminde birden çok taşıma aracı söz konusu ise ilk taşıma aracına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4. uyarınca teslim edildiği ana kadar bütün kayıp ve hasar riskini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6. hükümlerine tabi olmak üzere: Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları, ayrıca, navlunla birlikte, ister navlunda içerilmiş olsun isterse taşıma sözleşmesinin akdi sırasında satıcı tarafından yapılmış olsun, malların gerek yüklenişi gerekse de varış yerinde boşaltılması sırasında ortaya çıkanlar da dahil, A.3 a)' dan doğan diğer bütün masrafları karşılamak. İhracat işlemlerinde geçerli vergi, resim ve her türden resmi ödemelerle birlikte, gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların A.4. uyarınca teslim edildiğini bildirecek, gerekse de malları teslim alma yönünde normal olarak gerekli hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Eğer genel olarak alışılmış bir uygulama ise masrafları kendisine (satıcıya) ait olmak üzere, alıcıya mutad nakliye belgesini sağlamak ( örneğin devri kabil bir konişmento, devri gayri kabil bir deniz nakliye senedi, nehir taşıma belgesi, hava nakliye senedi, demiryolu konsinye formu, karayolu konsinye formu ya da çok vasıtalı herhangi bir taşıma belgesi). Eğer satıcı ile alıcı birbirleriyle elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki parağrafta sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4.uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrolü, ölçüm, tartım, sayım ) ilgili masrafları karşılamak. Malların, kendisi tarafından düzenlenen taşıma işlemi açısından gerekli biçimde ambalajlanması masraflarını karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak yüklenmesi söz kunusu değilse ). Ambalajlar, gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede çıkarılan belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8.dekiler hariç) alıcıya yardımcı olmak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği biçimde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış yerinde malları taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Mallar A.4. uyarınca kendisine teslim edildiği andan itibaren, mallarla ilgili her türlü kayıp ve hasar riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili her türlü riski üstlenmek. Ancak, bunun için,söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3.a) hükümlerine tabi olmak üzere, maların A.4.uyarınca teslimi anından itibaren bunlara ilişkin bütün masrafları karşılamak; ayrıca, eğer söz konusu ödeme ve harcamalar navluna dahil edilmemişse ya da A.3.a) uyarınca taşıma sözleşmesi akdederken satıcı tarafından gerçekleştirilmemişse, sonuçta boşaltma masrafları da dahil olmak üzere,malların transit halinde seyrinden varış noktasına ulaşmasına kadar olan süreye ait bütün masraf ve ödemeleri de üstlenmek. Eğer alıcı B.7.uyarınca gerekli duyuruda bulunmamışsa, malların yola çıkarılış gününden ya da bu işlem için tesbit edilen sürenin bitiminden itibaren bu mallarla ilgili olarak ortaya çıkacak hertürlü ek masrafı da kendisi üstlenir. Ancak, bunun için, söz konusu malların özel olarak sözleşmede çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemleriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Malları yola çıkarma zamanını ve/veya varış yerini belirleme hakkına sahip olduğu durumlarda, satıcıya bu hususlarla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8.uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak.</li>
+                <li>B10Diğer Yükümlülükler :A.10.'da sözü edilen belgelerin ya da bunlarla eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.</li>
+            </ul>
+
+            <hr>
+            <h3>8.CIP (TAŞIMA VE SİGORTA BEDELİ ÖDENMİŞ OLARAK TESLİM)</h3>
+
+            "Taşıma ve Sigorta Bedeli Ödenmiş Olarak Teslim" terimi, satıcının, CPT terimi ile aynı yükümlülükleri taşıdığı, ancak bunlara ek olarak, malların taşınması sırasında kayıp ve hasar riskine karşı alıcıya yük sigortası sağlama zorunda olduğu durumu anlatır. Satıcı, sigorta sözleşmesini akdeder ve sigorta primini öder. Alıcının dikkate alması gereken husus, CIP teriminde satıcıdan yalnızca asgari düzeyde bir sigorta kapsamı sağlanmasının beklendiğidir. CIP terimi, malların ihraç çıkış işlemlerinin satıcı tarafından yapılmasını öngörür. Bu terim, çok vasıtalı olanlar da dahil, her tür taşıma biçiminde kullanabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için gerekli bütün formaliteleri tamamlamak.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Masrafları kendisine ait olamak üzere, malların olağan bir rota izlenerek mutad biçimde belirlenen varış yerinden üzerinde anlaşılmış bir noktaya taşınması için bir sözleşme akdetmek. Eğer üzerinde anlaşılmış bir varış noktası yoksa ve böyle bir nokta mevcut uygulamada da belirlenmemişse, bu durumda satıcı, belirlenen varış yeri dahilinde böyle bir noktayı kendi amaçlarına en uygun düşecek şekilde belirleyebilir. b) Sigorta sözleşmesi Sözleşmede yer alan anlaşma uyarınca, alıcının ya da işleme konu olan mallarla sigorta kapsamına girecek türde ilişkisi olan başka herhangi bir şahsın doğrudan sigorta şirketinden tazminat talep edebileceği bir yük sigorta sözleşmesini kendi masraflarıyla akdetmek; alıcıya, sigorta poliçesini ya da sigorta kapsamını gösterir başka herhangi bir belgeyi sağlamak. Sözleşme, bu alanda güvenilir bir nitelik taşıyan sigortacılar ya da sigorta şirketleri ile yapılacak ve eğer aksi yönde bir anlaşmanın varlığı ifade edilmemişse,Kargo Hükümleri Kurumu (Londra Sigortacılar Kurumu)'nun asgari kapsam hükümlerine ya da bu alanda geçerli başka hükümlere uygunluk gösterecektir. Sigortanın geçerlilik süresi de B.5. ve B.4.' hükümlerine uygun olarak belirlenecektir. Alıcı tarafından talep edilmesi halinde satıcı, masrafları alıcıya ait olmak üzere ve eğer olanak varsa, savaş, grev, ihtilâl ve halk ayaklanması halleriyle ilgili sigorta işlemlerini de yaptıracaktır. Sigorta kapsamı, asgari olarak, satış sözleşmesinde belirtilen mal bedeli artı yüzde on (toplam: % 110) biçiminde belirlenecek ve yine satış sözleşmesinde yer alan para cinsinden karşılanacaktır.</li>
+                <li>A4)Teslimat : Malları, belirlenen tarihte ya da öngörülen süre içerisinde belirlenen varış yerine ulaştırmak üzere taşıyıcıya, ya da eğer taşıma işleminde birden çok taşıma aracı söz konusu ise ilk taşıma aracına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4. uyarınca teslim edildiği ana kadar bütün kayıp ve hasar riskini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6.hükümlerine tabi olmak üzere: Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları, ayrıca, taşıma sözleşmesi sırasında taşıyıcı kuruluşların malların araca yüklenmesi ve boşaltma mahallinde de araçtan indirilmesi çerçevesinde talep edecekleri de dahil olmak üzere A.3.'den kaynaklanan bütün masraflarla birlikte ana yük taşıma bedelini ödemek. İhracat işlemleride geçerli vergi, resim ve her türden resmi ödemelerle birlikte, gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların A.4. uyarınca teslim edildiğine dair, gerekse de malları teslim alma yönünde normal olarak zorunlu hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Eğer genel olarak alışılmış bir uygulama ise masrafları kendisine (satıcıya) ait olmak üzere, alıcıya mutad nakliye belgesini sağlamak (örneğin devri kabil bir konişmento, devri gayri kabil bir deniz nakliye senedi, nehir taşıma belgesi, hava nakliye senedi, demiryolu konsinye formu, karayolu konsinye formu ya da çok vasıtalı herhangi bir taşıma belgesi). Eğer satıcı ile alıcı birbirleriyle elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki paragrafta sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4.uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrölü, ölçüm, tartım, sayım ) ilgili masrafları karşılamak. Malların, kendisi tarafından düzenlenen taşıma işlemi açısından gerekli biçimde ambalajlamasını kendi hesabından karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak yüklenmesi söz konusu değilse). Ambalajlar, gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede tanzim edilen belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8.'dekiler hariç) alıcıya yardımcı olmak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu bütün gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış yerinde malları taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Malları A.4. uyarınca kendisine teslim edildiği andan itibaren, mallarla ilgili her türlü kayıp ve hasar ve riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim işlemi için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili her türlü riski üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3. hükümlerine tabi olmak üzere, malların A.4.uyarınca teslimi anından itibaren bunlara ilişkin bütün masrafları karşılamak; ayrıca, eğer söz konusu ödeme ve harcamaları taşıma bedeline dahil edilmemişse ya da A.3.a) uyarınca taşıma sözleşmesi akdedilirken satıcı tarafından gerçekleştirilmemişse, sonuçtaki boşaltma masrafları da dahil olmak üzere, malların transit halinde seyrinden varış noktasına ulaşmasına kadar olan süreye ait bütün masraf ve ödemeleri de karşılamak. Eğer alıcı B.7. uyarınca gerekli duyuruda bulunmamışsa, malların yola çıkarılış gününden ya da bu işlem için tesbit edilen sürenin bitiminden itibaren bu mallarla ilgili olarak ortaya çıkacak her türlü ek masrafı da kendisi üstlenir. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemlriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Mallarla yola çıkarma zamanını ve/veya varış yerini belirleme hakkına sahip olduğu durumlarda, satıcıya bu husularla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8. uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak.</li>
+                <li>B10Diğer Yükümlülükler :A.10.'da sözü edilen belgelerin ya da bunlarla eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.Talep üzerine, satıcıya, sigorta işlemlerinin gerçekleştirilmesi açısından gerekli bilgileri sağlamak.</li>
+            </ul>
+
+            <hr>
+            <h3>9.DAF (SINIRDA TESLİM)</h3>
+
+            "Sınırda Teslim" terimi, malların, gümrük çıkış işlemleri tamamlanmış olarak sınırda, ancak, bitişik ülkenin gümrük sınırından önceki, belirlenen yerde ve noktada teslime hazır hale getirilmesiyle satıcının yükümlülüklerinin sona ermesi anlamına gelir. Burada "sınır" terimi, ihracatın yapıldığı ülkeninki dahil her tür sınırı tanımlamak üzere kullanabilir. Dolayısıyla, sözü edilen "sınır"ın terim içinde atıfta bulunulan yerini ve noktasını mutlaka isim olarak belirterek kesinleştirmek çok büyük önem taşımaktadır. Aslında bu terim özellikle demiryolu ve karayolu taşımacılığı açısından düşünülmüşse de, herhangi bir taşıma biçiminde kullanabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Risk ve masrafları kendisine ait olmak üzere, herhangi bir ihraç izin belgesini, resmi yetkiyi ya da malları alıcının tasarrufuna bırakabilmesi için gerekli başka herhangi bir belgeyi edinmek. Malların sınırda belirlenen teslim yerine ihracı ve eğer gerekli ise, bu malların daha önce bir başka ülkeden transit geçişi için bütün gümrük işlerini tamamlamak..</li>
+                <li>A3) Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Malların olağan bir rota izlenerek mutad biçimde, sınırda belirlenmiş teslim noktasına taşınması için (eğer gerekli ise, bir başka ülkeden transit geçiş de dahil) masrafları kendisine ait olmak üzere sözleşme akdetmek. Eğer sınırda belirlenen teslim yerindeki nokta üzerinde ayrıca anlaşmaya varılmamışsa ya da mevcut uygulamalar böyle bir nokta belirlememişse, bu durumda satıcı, belirlenen teslim alanı içinde olmak üzere bu noktayı kendi açısından en uygun olacak şekilde tesbit edebilir. b) Sigorta sözleşmesi Yükümlülük yok.</li>
+                <li>A4)Teslimat : Malları, sınırda belirlenen teslim yerinde, öngörülen tarihte ya da süre içerisinde alıcının emrine vermek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4.uyarınca teslim edildiği ana kadar bütün kayıp ve hasar riskini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6. hükümlerine tabi olmak üzere: Malların A.4.uyarınca teslimine kadar süreye ait masrafların dışında, A.3.a)'dan kaynaklanan masrafları ve ayrıca, eğer malların alıcının kullanımına tahsisi için bu malların sınırda belirlenen varış yerine ulaşır ulaşmaz boşaltılması gerekiyorsa ve mevcut uygulamalar da bu yöndeyse, ilgili boşaltma masraflarını da tümüyle karşılamak. İhracat için gerekli gümrük formalitelerinin masraflarıyla birlikte, yine ihracat işlemleri üzerinden alınan vergi, resim ve diğer ödemeleri ve eğer gerekli ise, mallar A.4. uyarınca teslim edilmeden önce bunların başka ülkelerden geçiş yapması için zorunlu masrafları karşılamak.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, malların sınırda belirtilen yere doğru yola çıkarıldığına ilişkin yeterli duyuruyu yapmak; ayrıca yine alıcıya, malları teslim alma yönünde gerekli hazırlıkları yapabilmesine olanak tanıyacak haberleri iletmek.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Masraflar kendisine (satıcıya) ait olmak üzere, malların teslimine ilişkin mutad belgeyi ya da teslimi kanıtlayacak başka herhangi bir belgeyi, sınırda belirlenen yerde alıcıya vermek. Alıcının talebi üzerine, risk ve masrafları da ona ait olmak koşuluyla kendisine, normal olarak malların yola çıkarıldığı ülkeden temin edilen ve malların bu ülkeden başlayarak ithalatçı ülkede alıcı tarafından belirlenen nihai varış noktasına kadar taşınması işlemini gösteren tam bir belgeyi sağlamak. Eğer satıcı ile alıcı birbirleriyle elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki parağrafta sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir. .</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4. uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrolü, ölçüm, tartım, sayım) ilgili masrafları karşılamak. (İşleme konu olan türde malların ambalajsız teslimi söz konusu değilse) malların sınırda teslimi açısından gerekli ambalajlama işleminin yanı sıra, ayrıca eğer koşullar (örneğin taşıma çeşitleri, varacağı yer) satış sözleşmesi akdedilmeden önce kendisine bildirilmişse bu malların sınırda teslim işleminden sonraki taşıma işlemleri için gerekli ambalajlamaları da kendi hesabından üstlenmek. Ambalajlar uygun biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede çıkarılan belgeleri, bunlarla eşdeğer olan elektronik mesajları (A.8.'dekiler hariç) edinmesinde alıcıya yardımcı olmak. Kendisinin talebi üzerine, alıcıya, sigorta işlemleri açısından gerekli bilgileri sağlamak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, malların ithali ve gerektiği durumlarda da daha sonraki taşıma işlemleri açısından istenen izin ve belgeleri almak, her türlü gümrük giriş fotmalitelerini sınırda belirlenmiş teslim noktasında ya da bir başka yerde tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : A.4. uyarınca kendi tasarrufuna bırakılır bırakılmaz malları teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : A.4. uyarınca mallar kendi tasarrufuna bırakıldığı andan itibaren bununla ilgili her türlü kayıp ve hasar riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim işlemi için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili her türlü kayıp ve hasar riskini üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : Mallar A.4. uyarınca kendi tasarrufuna bırakıldığı andan itibaren bunlarla ilgili her türlü masrafı karşılamak. Mallar A.4. uyarınca tasarrufuna bırakıldığı zaman bunları teslim almaması, ya da B.7. uyarınca duyuruda bulunmaması durumlarında, bu durumlar sonucu doğacak bütün ek masrafları karşılamak. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla bir kenara ayrılan mallar olduğunu teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemleriyle ilgili olan ve gerekliyse, bu malların daha sonraki taşıma işlemlerinden doğan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Belirli bir süre içerisinde malları teslim alma gününü ve/veya yerini belirleme hakkına sahipse, satıcıya bu konularla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : A.8. uyarınca taşıma belgesini ve/veya bir diğer teslim kanıtını kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak.</li>
+                <li>B10Diğer Yükümlülükler :A.10.'da sözü edilen belgelerin ya da bunlarla eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek. Eğer gerekli ise, satıcıdan gelen talep üzerine ve risk ve masrafları alıcıya ait olmak koşuluyla, kendisine, döviz kontrol belgesi, permi ve diğer benzeri belgeleri ya da bunların tasdikli süretlerini sağlamak; eksiksiz taşıma belgesinin ya da A.8. de belirtilen türde herhangi bir belgenin sağlanabilmesi amacıyla, malların giriş yapacağı ülkedeki nihai varış adresi</li>
+            </ul>
+
+            <hr>
+            <h3>10.DES (VARIŞ LİMANINDA GEMİDE TESLİM)</h3>
+
+            "Taşıma ve Sigorta Bedeli Ödenmiş Olarak Teslim" terimi, satıcının, CPT terimi ile aynı yükümlülükleri taşıdığı, ancak bunlara ek olarak, malların taşınması sırasında kayıp ve hasar riskine karşı alıcıya yük sigortası sağlama zorunda olduğu durumu anlatır. Satıcı, sigorta sözleşmesini akdeder ve sigorta primini öder. Alıcının dikkate alması gereken husus, CIP teriminde satıcıdan yalnızca asgari düzeyde bir sigorta kapsamı sağlanmasının beklendiğidir. CIP terimi, malların ihraç çıkış işlemlerinin satıcı tarafından yapılmasını öngörür. Bu terim, çok vasıtalı olanlar da dahil, her tür taşıma biçiminde kullanabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için gerekli bütün formaliteleri tamamlamak.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Masrafları kendisine ait olamak üzere, malların olağan bir rota izlenerek mutad biçimde belirlenen varış yerinden üzerinde anlaşılmış bir noktaya taşınması için bir sözleşme akdetmek. Eğer üzerinde anlaşılmış bir varış noktası yoksa ve böyle bir nokta mevcut uygulamada da belirlenmemişse, bu durumda satıcı, belirlenen varış yeri dahilinde böyle bir noktayı kendi amaçlarına en uygun düşecek şekilde belirleyebilir. b) Sigorta sözleşmesi Sözleşmede yer alan anlaşma uyarınca, alıcının ya da işleme konu olan mallarla sigorta kapsamına girecek türde ilişkisi olan başka herhangi bir şahsın doğrudan sigorta şirketinden tazminat talep edebileceği bir yük sigorta sözleşmesini kendi masraflarıyla akdetmek; alıcıya, sigorta poliçesini ya da sigorta kapsamını gösterir başka herhangi bir belgeyi sağlamak. Sözleşme, bu alanda güvenilir bir nitelik taşıyan sigortacılar ya da sigorta şirketleri ile yapılacak ve eğer aksi yönde bir anlaşmanın varlığı ifade edilmemişse,Kargo Hükümleri Kurumu (Londra Sigortacılar Kurumu)'nun asgari kapsam hükümlerine ya da bu alanda geçerli başka hükümlere uygunluk gösterecektir. Sigortanın geçerlilik süresi de B.5. ve B.4.' hükümlerine uygun olarak belirlenecektir. Alıcı tarafından talep edilmesi halinde satıcı, masrafları alıcıya ait olmak üzere ve eğer olanak varsa, savaş, grev, ihtilâl ve halk ayaklanması halleriyle ilgili sigorta işlemlerini de yaptıracaktır. Sigorta kapsamı, asgari olarak, satış sözleşmesinde belirtilen mal bedeli artı yüzde on (toplam: % 110) biçiminde belirlenecek ve yine satış sözleşmesinde yer alan para cinsinden karşılanacaktır.</li>
+                <li>A4)Teslimat : Malları, belirlenen tarihte ya da öngörülen süre içerisinde belirlenen varış yerine ulaştırmak üzere taşıyıcıya, ya da eğer taşıma işleminde birden çok taşıma aracı söz konusu ise ilk taşıma aracına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4. uyarınca teslim edildiği ana kadar bütün kayıp ve hasar riskini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6.hükümlerine tabi olmak üzere: Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları, ayrıca, taşıma sözleşmesi sırasında taşıyıcı kuruluşların malların araca yüklenmesi ve boşaltma mahallinde de araçtan indirilmesi çerçevesinde talep edecekleri de dahil olmak üzere A.3.'den kaynaklanan bütün masraflarla birlikte ana yük taşıma bedelini ödemek. İhracat işlemleride geçerli vergi, resim ve her türden resmi ödemelerle birlikte, gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların A.4. uyarınca teslim edildiğine dair, gerekse de malları teslim alma yönünde normal olarak zorunlu hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Eğer genel olarak alışılmış bir uygulama ise masrafları kendisine (satıcıya) ait olmak üzere, alıcıya mutad nakliye belgesini sağlamak (örneğin devri kabil bir konişmento, devri gayri kabil bir deniz nakliye senedi, nehir taşıma belgesi, hava nakliye senedi, demiryolu konsinye formu, karayolu konsinye formu ya da çok vasıtalı herhangi bir taşıma belgesi). Eğer satıcı ile alıcı birbirleriyle elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki paragrafta sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4.uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrölü, ölçüm, tartım, sayım ) ilgili masrafları karşılamak. Malların, kendisi tarafından düzenlenen taşıma işlemi açısından gerekli biçimde ambalajlamasını kendi hesabından karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak yüklenmesi söz konusu değilse). Ambalajlar, gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede tanzim edilen belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8.'dekiler hariç) alıcıya yardımcı olmak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu bütün gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış yerinde malları taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Malları A.4. uyarınca kendisine teslim edildiği andan itibaren, mallarla ilgili her türlü kayıp ve hasar ve riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim işlemi için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili her türlü riski üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3. hükümlerine tabi olmak üzere, malların A.4.uyarınca teslimi anından itibaren bunlara ilişkin bütün masrafları karşılamak; ayrıca, eğer söz konusu ödeme ve harcamaları taşıma bedeline dahil edilmemişse ya da A.3.a) uyarınca taşıma sözleşmesi akdedilirken satıcı tarafından gerçekleştirilmemişse, sonuçtaki boşaltma masrafları da dahil olmak üzere, malların transit halinde seyrinden varış noktasına ulaşmasına kadar olan süreye ait bütün masraf ve ödemeleri de karşılamak. Eğer alıcı B.7. uyarınca gerekli duyuruda bulunmamışsa, malların yola çıkarılış gününden ya da bu işlem için tesbit edilen sürenin bitiminden itibaren bu mallarla ilgili olarak ortaya çıkacak her türlü ek masrafı da kendisi üstlenir. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemlriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Mallarla yola çıkarma zamanını ve/veya varış yerini belirleme hakkına sahip olduğu durumlarda, satıcıya bu husularla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8. uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak. .</li>
+                <li>B10Diğer Yükümlülükler : A.10.'da sözü edilen belgelerin ya da bunlarla eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.Talep üzerine, satıcıya, sigorta işlemlerinin gerçekleştirilmesi açısından gerekli bilgileri sağlamak.</li>
+            </ul>
+
+            <hr>
+            <h3>11.DEQ (VARIŞ LİMANINDA RIHTIMDA TESLİM)</h3>
+
+            "Taşıma ve Sigorta Bedeli Ödenmiş Olarak Teslim" terimi, satıcının, CPT terimi ile aynı yükümlülükleri taşıdığı, ancak bunlara ek olarak, malların taşınması sırasında kayıp ve hasar riskine karşı alıcıya yük sigortası sağlama zorunda olduğu durumu anlatır. Satıcı, sigorta sözleşmesini akdeder ve sigorta primini öder. Alıcının dikkate alması gereken husus, CIP teriminde satıcıdan yalnızca asgari düzeyde bir sigorta kapsamı sağlanmasının beklendiğidir. CIP terimi, malların ihraç çıkış işlemlerinin satıcı tarafından yapılmasını öngörür. Bu terim, çok vasıtalı olanlar da dahil, her tür taşıma biçiminde kullanabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak. .</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için gerekli bütün formaliteleri tamamlamak.</li>
+                <li>A3) Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Masrafları kendisine ait olamak üzere, malların olağan bir rota izlenerek mutad biçimde belirlenen varış yerinden üzerinde anlaşılmış bir noktaya taşınması için bir sözleşme akdetmek. Eğer üzerinde anlaşılmış bir varış noktası yoksa ve böyle bir nokta mevcut uygulamada da belirlenmemişse, bu durumda satıcı, belirlenen varış yeri dahilinde böyle bir noktayı kendi amaçlarına en uygun düşecek şekilde belirleyebilir. b) Sigorta sözleşmesi Sözleşmede yer alan anlaşma uyarınca, alıcının ya da işleme konu olan mallarla sigorta kapsamına girecek türde ilişkisi olan başka herhangi bir şahsın doğrudan sigorta şirketinden tazminat talep edebileceği bir yük sigorta sözleşmesini kendi masraflarıyla akdetmek; alıcıya, sigorta poliçesini ya da sigorta kapsamını gösterir başka herhangi bir belgeyi sağlamak. Sözleşme, bu alanda güvenilir bir nitelik taşıyan sigortacılar ya da sigorta şirketleri ile yapılacak ve eğer aksi yönde bir anlaşmanın varlığı ifade edilmemişse,Kargo Hükümleri Kurumu (Londra Sigortacılar Kurumu)'nun asgari kapsam hükümlerine ya da bu alanda geçerli başka hükümlere uygunluk gösterecektir. Sigortanın geçerlilik süresi de B.5. ve B.4.' hükümlerine uygun olarak belirlenecektir. Alıcı tarafından talep edilmesi halinde satıcı, masrafları alıcıya ait olmak üzere ve eğer olanak varsa, savaş, grev, ihtilâl ve halk ayaklanması halleriyle ilgili sigorta işlemlerini de yaptıracaktır. Sigorta kapsamı, asgari olarak, satış sözleşmesinde belirtilen mal bedeli artı yüzde on (toplam: % 110) biçiminde belirlenecek ve yine satış sözleşmesinde yer alan para cinsinden karşılanacaktır.</li>
+                <li>A4)Teslimat : Malları, belirlenen tarihte ya da öngörülen süre içerisinde belirlenen varış yerine ulaştırmak üzere taşıyıcıya, ya da eğer taşıma işleminde birden çok taşıma aracı söz konusu ise ilk taşıma aracına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4. uyarınca teslim edildiği ana kadar bütün kayıp ve hasar riskini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6.hükümlerine tabi olmak üzere: Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları, ayrıca, taşıma sözleşmesi sırasında taşıyıcı kuruluşların malların araca yüklenmesi ve boşaltma mahallinde de araçtan indirilmesi çerçevesinde talep edecekleri de dahil olmak üzere A.3.'den kaynaklanan bütün masraflarla birlikte ana yük taşıma bedelini ödemek. İhracat işlemleride geçerli vergi, resim ve her türden resmi ödemelerle birlikte, gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların A.4. uyarınca teslim edildiğine dair, gerekse de malları teslim alma yönünde normal olarak zorunlu hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Eğer genel olarak alışılmış bir uygulama ise masrafları kendisine (satıcıya) ait olmak üzere, alıcıya mutad nakliye belgesini sağlamak (örneğin devri kabil bir konişmento, devri gayri kabil bir deniz nakliye senedi, nehir taşıma belgesi, hava nakliye senedi, demiryolu konsinye formu, karayolu konsinye formu ya da çok vasıtalı herhangi bir taşıma belgesi). Eğer satıcı ile alıcı birbirleriyle elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki paragrafta sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4.uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrölü, ölçüm, tartım, sayım ) ilgili masrafları karşılamak. Malların, kendisi tarafından düzenlenen taşıma işlemi açısından gerekli biçimde ambalajlamasını kendi hesabından karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak yüklenmesi söz konusu değilse). Ambalajlar, gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede tanzim edilen belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8.'dekiler hariç) alıcıya yardımcı olmak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu bütün gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış yerinde malları taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Malları A.4. uyarınca kendisine teslim edildiği andan itibaren, mallarla ilgili her türlü kayıp ve hasar ve riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim işlemi için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili her türlü riski üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3. hükümlerine tabi olmak üzere, malların A.4.uyarınca teslimi anından itibaren bunlara ilişkin bütün masrafları karşılamak; ayrıca, eğer söz konusu ödeme ve harcamaları taşıma bedeline dahil edilmemişse ya da A.3.a) uyarınca taşıma sözleşmesi akdedilirken satıcı tarafından gerçekleştirilmemişse, sonuçtaki boşaltma masrafları da dahil olmak üzere, malların transit halinde seyrinden varış noktasına ulaşmasına kadar olan süreye ait bütün masraf ve ödemeleri de karşılamak. Eğer alıcı B.7. uyarınca gerekli duyuruda bulunmamışsa, malların yola çıkarılış gününden ya da bu işlem için tesbit edilen sürenin bitiminden itibaren bu mallarla ilgili olarak ortaya çıkacak her türlü ek masrafı da kendisi üstlenir. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemlriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Mallarla yola çıkarma zamanını ve/veya varış yerini belirleme hakkına sahip olduğu durumlarda, satıcıya bu husularla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8. uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak.</li>
+                <li>B10Diğer Yükümlülükler : A.10.'da sözü edilen belgelerin ya da bunlarla eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.Talep üzerine, satıcıya, sigorta işlemlerinin gerçekleştirilmesi açısından gerekli bilgileri sağlamak.</li>
+            </ul>
+
+            <hr>
+            <h3>12.DDU (GÜMRÜK RESMİ ÖDENMEKSİZİN TESLİM)</h3>
+
+            "Taşıma ve Sigorta Bedeli Ödenmiş Olarak Teslim" terimi, satıcının, CPT terimi ile aynı yükümlülükleri taşıdığı, ancak bunlara ek olarak, malların taşınması sırasında kayıp ve hasar riskine karşı alıcıya yük sigortası sağlama zorunda olduğu durumu anlatır. Satıcı, sigorta sözleşmesini akdeder ve sigorta primini öder. Alıcının dikkate alması gereken husus, CIP teriminde satıcıdan yalnızca asgari düzeyde bir sigorta kapsamı sağlanmasının beklendiğidir. CIP terimi, malların ihraç çıkış işlemlerinin satıcı tarafından yapılmasını öngörür. Bu terim, çok vasıtalı olanlar da dahil, her tür taşıma biçiminde kullanabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Kendi risk ve masraf alanına dahil olmak üzere, malların ihracı için gerekli herhangi bir izni ya da yetkiyi almak; yine malların ihracı için gerekli bütün formaliteleri tamamlamak.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Masrafları kendisine ait olamak üzere, malların olağan bir rota izlenerek mutad biçimde belirlenen varış yerinden üzerinde anlaşılmış bir noktaya taşınması için bir sözleşme akdetmek. Eğer üzerinde anlaşılmış bir varış noktası yoksa ve böyle bir nokta mevcut uygulamada da belirlenmemişse, bu durumda satıcı, belirlenen varış yeri dahilinde böyle bir noktayı kendi amaçlarına en uygun düşecek şekilde belirleyebilir. b) Sigorta sözleşmesi Sözleşmede yer alan anlaşma uyarınca, alıcının ya da işleme konu olan mallarla sigorta kapsamına girecek türde ilişkisi olan başka herhangi bir şahsın doğrudan sigorta şirketinden tazminat talep edebileceği bir yük sigorta sözleşmesini kendi masraflarıyla akdetmek; alıcıya, sigorta poliçesini ya da sigorta kapsamını gösterir başka herhangi bir belgeyi sağlamak. Sözleşme, bu alanda güvenilir bir nitelik taşıyan sigortacılar ya da sigorta şirketleri ile yapılacak ve eğer aksi yönde bir anlaşmanın varlığı ifade edilmemişse,Kargo Hükümleri Kurumu (Londra Sigortacılar Kurumu)'nun asgari kapsam hükümlerine ya da bu alanda geçerli başka hükümlere uygunluk gösterecektir. Sigortanın geçerlilik süresi de B.5. ve B.4.' hükümlerine uygun olarak belirlenecektir. Alıcı tarafından talep edilmesi halinde satıcı, masrafları alıcıya ait olmak üzere ve eğer olanak varsa, savaş, grev, ihtilâl ve halk ayaklanması halleriyle ilgili sigorta işlemlerini de yaptıracaktır. Sigorta kapsamı, asgari olarak, satış sözleşmesinde belirtilen mal bedeli artı yüzde on (toplam: % 110) biçiminde belirlenecek ve yine satış sözleşmesinde yer alan para cinsinden karşılanacaktır.</li>
+                <li>A4)Teslimat : Malları, belirlenen tarihte ya da öngörülen süre içerisinde belirlenen varış yerine ulaştırmak üzere taşıyıcıya, ya da eğer taşıma işleminde birden çok taşıma aracı söz konusu ise ilk taşıma aracına teslim etmek.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4. uyarınca teslim edildiği ana kadar bütün kayıp ve hasar riskini üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6.hükümlerine tabi olmak üzere: Mallar A.4. uyarınca teslim edilinceye kadar bunlarla ilgili bütün masrafları, ayrıca, taşıma sözleşmesi sırasında taşıyıcı kuruluşların malların araca yüklenmesi ve boşaltma mahallinde de araçtan indirilmesi çerçevesinde talep edecekleri de dahil olmak üzere A.3.'den kaynaklanan bütün masraflarla birlikte ana yük taşıma bedelini ödemek. İhracat işlemleride geçerli vergi, resim ve her türden resmi ödemelerle birlikte, gümrük çıkış işlemleriyle ilgili bütün masrafları üstlenmek.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, gerek malların A.4. uyarınca teslim edildiğine dair, gerekse de malları teslim alma yönünde normal olarak zorunlu hazırlıkları yapabilmesine olanak tanıyacak duyuruları yapmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Eğer genel olarak alışılmış bir uygulama ise masrafları kendisine (satıcıya) ait olmak üzere, alıcıya mutad nakliye belgesini sağlamak (örneğin devri kabil bir konişmento, devri gayri kabil bir deniz nakliye senedi, nehir taşıma belgesi, hava nakliye senedi, demiryolu konsinye formu, karayolu konsinye formu ya da çok vasıtalı herhangi bir taşıma belgesi). Eğer satıcı ile alıcı birbirleriyle elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki paragrafta sözü edilen belgenin yerini, onunla eş geçerlilikte bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4.uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrölü, ölçüm, tartım, sayım ) ilgili masrafları karşılamak. Malların, kendisi tarafından düzenlenen taşıma işlemi açısından gerekli biçimde ambalajlamasını kendi hesabından karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak yüklenmesi söz konusu değilse). Ambalajlar, gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : Alıcının talebi üzerine, risk ve masrafları da alıcıya ait olmak koşuluyla, malların ithal işlemleri açısından, bazı durumlarda da bu malların bir başka ülkeden transit geçişi için gerekli olan, ancak, malların sevke tabi tutulduğu ve/veya asıl çıkış kaynağı olan ülkede tanzim edilen belgeleri, bunlara eşdeğer olan elektronik mesajları edinmesinde (A.8.'dekiler hariç) alıcıya yardımcı olmak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği şekilde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Risk ve masrafları kendisine ait olmak üzere, gerekli ithal iznini ya da diğer resmi yetki belgelerini almak; malların ithali için zorunlu bütün gümrük işlemleriyle birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : Teslim işlemi A.4. uyarınca yapılmışsa malları kabul etmek ve belirlenen varış yerinde malları taşıyıcıdan teslim almak.</li>
+                <li>B5) Risklerin Üstlenilmesi : Malları A.4. uyarınca kendisine teslim edildiği andan itibaren, mallarla ilgili her türlü kayıp ve hasar ve riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim işlemi için tesbit edilen tarihten ya da aynı işlem için tesbit edilen sürenin bitiminden itibaren mallarla ilgili her türlü riski üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka deyişle bu amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : A.3. hükümlerine tabi olmak üzere, malların A.4.uyarınca teslimi anından itibaren bunlara ilişkin bütün masrafları karşılamak; ayrıca, eğer söz konusu ödeme ve harcamaları taşıma bedeline dahil edilmemişse ya da A.3.a) uyarınca taşıma sözleşmesi akdedilirken satıcı tarafından gerçekleştirilmemişse, sonuçtaki boşaltma masrafları da dahil olmak üzere, malların transit halinde seyrinden varış noktasına ulaşmasına kadar olan süreye ait bütün masraf ve ödemeleri de karşılamak. Eğer alıcı B.7. uyarınca gerekli duyuruda bulunmamışsa, malların yola çıkarılış gününden ya da bu işlem için tesbit edilen sürenin bitiminden itibaren bu mallarla ilgili olarak ortaya çıkacak her türlü ek masrafı da kendisi üstlenir. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka bir deyişle, bu amaçla bir kenara ayrılmış mallar olduğunun teşhis edilebilmesi gerekir. İthalat işlemlerinde geçerli vergi, resim ve her türden resmi ödeme ile birlikte, gümrük giriş işlemlriyle ilgili olan ve gerekliyse, bu malların bir başka ülkeden transit geçişiyle ortaya çıkan bütün masrafları üstlenmek.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Mallarla yola çıkarma zamanını ve/veya varış yerini belirleme hakkına sahip olduğu durumlarda, satıcıya bu husularla ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : Eğer sözleşme ile uyum halindeyse, A.8. uyarınca taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı taktirde ve işlem ihracatın gerçekleştiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak.</li>
+                <li>B10Diğer Yükümlülükler : A.10.'da sözü edilen belgelerin ya da bunlarla eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; satıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek.Talep üzerine, satıcıya, sigorta işlemlerinin gerçekleştirilmesi açısından gerekli bilgileri sağlamak.</li>
+            </ul>
+
+            <hr>
+            <h3>13.DDP (GÜMRÜK RESMİ ÖDENMİŞ TESLİM)</h3>
+
+            "Gümrük Resmi Ödenmiş Olarak Teslim" terimi, malların ithalatçı ülkede belirlenen yerde hazır bulundurulmasıyla, satıcının teslim yükümlülüğünün de yerine getirilmiş olacağını anlatır. Burada satıcı, malların gümrük giriş işlemleri tamamlanmış olarak tesliminde, gümrük resmi dahil olmak üzere, vergiler ve diğer ödemelerle birlikte bütün risk ve masrafları üstlenir. EXW terimi satıcı açısından asgari yükümlülük ifade ederken, DDP terimi, tersine, azami yükümlülüğü içerir. Eğer satıcı doğrudan ya da dolaylı biçimde ithal lisansı alamıyorsa, bu durumda bu terim kullanılmamalıdır. Eğer taraflar malların gümrük girişinin alıcı tarafından yapılmasını, gümrük resminin de onun tarafından ödenmesini istiyorlarsa, bu durumda DDU terimi kullanılmalıdır. Eğer taraflar, ithal işlemlerde geçerli bazı ödemelerin (örneğin Katma Değer Vergisinin) satıcının yükümlülükleri arasından çıkarılmasını isterlerse, bu istek konuya açıklık getirecek şu ek sözlerle sağlanabilir: "Gümrük resmi ödenmiş olarak teslim, KDV hariç (varış yeri...)" Bu terim, taşıma biçimi ne olursa olsun kullanılabilir.
+
+             <h4 style="color: #7e1717;">A) Satıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>A1)Malların Kontrata Uygunluğu : Malları ve faturayı ya da ona eşdeğer bir elektronik mesajı satış sözleşmesi uyarınca sağlamak; yine sözleşme tarafından gerekli görülen başka herhangi bir belgeyi hazır bulundurmak.</li>
+                <li>A2)Lisanslar, Yetkiler ve Formatiler : Risk ve masrafları kendisine ait olmak üzere gerekli ihraç ve ithal izinlerini ya da diğer resmi yetki belgelerini almak; malların ihracı için ve ithali için zorunlu bütün gümrük işlemleri ile birlikte, eğer gerekli ise, bu malların bir başka ülkeden transit geçişini sağlayacak işlemleri tamamlamak.</li>
+                <li>A3)Taşıma ve Sigorta Sözleşmesi : a) Taşıma sözleşmesi Malların mutad biçiminde ve olağan bir rota izlenerek belirtilen limandaki rıhtıma taşınması için, masrafları kendisine ait olmak üzere sözleşme akdetmek. Eğer belirli bir yer üzerinde anlaşmaya varılmamışsa ya da böyle bir yer mevcut uygulamalar sonucu belirmemişse, bu durumda satıcı, belirlenen varış limanı dahilinde olmak üzere bu yeri kendi açısından en uygun olacak şekilde tesbit edebilir. b) Sigorta sözleşmesi Yükümlülüğü yok.</li>
+                <li>A4)Teslimat : Malları, belirlenen tarihte ya da öngörülen süre içerisinde, A.3. uyarınca alıcının evine bırakmak.</li>
+                <li>A5)Risklerin Üstlenilmesi :B.5. hükümlerine tabi olmak üzere, malların A.4.uyarınca teslim edilişine kadar olan süre içerisindeki bütün kayıp ve hasar riskine üstlenmek.</li>
+                <li>A6)Masrafların Paylaşımı : B.6. Hükümlerine tabi olmak üzere: A.3.a)'dan kaynaklanan masraflara ek olarak, malların A.4. uyarınca teslimine kadar bunlarla ilgili her türlü masrafı da karşılamak. Malların ihraç ve ithal işlemleri için gerekli gümrük formalitelerinin masraflarını, malların ihraç ve ithali üzerinden alınan her türlü vergi, resim ve diğer payları, ve ayrıca, eğer aksi yönde bir anlaşma yoksa ve gerekli ise, malların A.4. uyarınca tesliminden önce bir başka ülkeden transit geçiş yapmasıyla ilgili masrafları da karşılamak.</li>
+                <li>A7)Alıcının Bilgilendirilmesi : Alıcıya, malların yola çıkarılışına dair yeterli bilginin yanı sıra, ayrıca, kendisini malları teslim alması için gerekli normal hazırlıkları yapabilmesine olanak tanıyacak başka duyurularda da bulunmak.</li>
+                <li>A8)Teslimat ONayı ve Nakliye Belgeleri : Masrafları kendisine (satıcıya) ait olmak üzere, malları teslim almasında alıcı açısından gerekli olabilecek teslim emrini ve/veya mutad taşıma belgesini (örneğin devri kabil bir konişmento, devri gayri kabil bir deniz/nehir/havayolu taşıma senedi, demiryolu ya da karayolu konsinye notu ya da çok vasıtalı bir taşıma belgesi ) sağlamak. Eğer satıcı ile alıcı birbirleri ile elektronik iletişim araçları kanalından haberleşme kararına varmışlarsa, önceki parağrafta sözü edilen belgenin yerini, onunla eş geçerlilikle bir elektronik bilgi değişim (EDI) mesajı alabilir.</li>
+                <li>A9)Kontrol, Paketleme, Etiketleme : Malların A.4. uyarınca teslimi açısından gerekli olan kontrol işlemleriyle (örneğin kalite kontrolü, ölçüm, tartım, sayım) ilgili masrafları karşılamak. Malların, alıcıya teslim işlemi açısından gerekli biçimde ambalajlanmasını kendi hesabından karşılamak (söz konusu alanda, sözleşmede tanımlanan malların ambalajsız olarak teslimi söz konusu değilse). Ambalajlar gerektiği biçimde işaretlenecektir.</li>
+                <li>A10)Diğer Yükümlülükler : B.10.'da sözü edilen belgelerin ya da bunlara eşdeğer elektronik mesajların sağlanması sırasında ortaya çıkan bütün masraf ve ödemeleri üstlenmek; alıcının bu konuda kendisine yardım amacıyla yaptığı bütün masrafları tazmin etmek. Talep üzerine, alıcıya, sigorta işlemleri için gerekli bilgileri sağlamak.</li>
+            </ul>
+
+             <h4 style="color: #7e1717;">B) Alıcının Yükümlülükleri :</h4>
+
+            <ul class="arrow">
+                <li>B1) Ödemenin Yapılması : Mal bedelini, satış sözleşmesinde belirtildiği biçimde ödemek.</li>
+                <li>B2) Lisanslar, Yetkiler ve Formaliteler : Satıcının talebi üzerine, risk ve masrafları da ona ait olmak koşuluyla, malların ithali için zorunlu herhangi bir izni ya da resmi yetkiyi sağlaması işlemlerinde kendisine her türlü yardımda bulunmak.</li>
+                <li>B3)Taşıma ve Sigorta Sözleşmeleri : Yükümlülüğü yok.</li>
+                <li>B4)Teslim Alma : A.4. uyarınca kendi tasarrufuna bırakılır bırakılmaz malları teslim almak. .</li>
+                <li>B5) Risklerin Üstlenilmesi : A.4. uyarınca bunlar kendi tasarrufuna bırakıldığı andan itibaren bunlarla ilgili her türlü kayıp ve hasar riskini üstlenmek. B.7. uyarınca gerekli duyuruyu yapmaması durumunda, teslim işlemi için tespit edilen tarihten ya da aynı işlem için tespit edilen sürenin bitiminden itibaren mallarla ilgili her türlü kayıp ve hasar riskini üstlenmek. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla tahsis edilen, başka değişle bu amaşla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B6)Masrafların Paylaşımı : Mallar A.4. uyarınca kendi tasarrufuna bırakıldıktan sonra, bu mallarla ilgili bütün masrafları karşılamak. Mallar A.4. uyarınca kendi tasarrufuna bırakıldığı zaman bunları teslim alması, ya da B.7. uyarınca duyuruda bulunmaması durumunda, bu durumlar sonucu doğacak bütün ek masrafları karşılamak. Ancak, bunun için, söz konusu malların özel olarak sözleşme çerçevesinde ve o amaçla bir kenara ayrılan mallar olduğunun teşhis edilebilmesi gerekir.</li>
+                <li>B7)Satıcının Bilgilendirilmesi : Belirli bir süre içerisinde malları teslim alma gününü ve/veya yerini belirleme hakkına sahipse, satıcıya bu konularala ilgili gerekli duyuruları yapmak.</li>
+                <li>B8Teslimat Onayı ve Nakliyat Bilgileri : A.8. uyarınca, uygun nitelikli teslim emrini ya da taşıma belgesini kabul etmek.</li>
+                <li>B9Malların Denetlenmesi : Başka türlü bir anlaşmaya varılmadığı takdirde ve işlem ihracatın gerçekleşdiği ülkenin görevlilerince zorunlu olarak yapılmıyorsa, yükleme öncesi denetim işlemlerinin masrafını karşılamak.</li>
+                <li>B10Diğer Yükümlülükler : Satıcının talebi üzerine, risk ve masrafları da kendisine ait olmak koşuluyla, satıcının burada belirtilen kurallar çerçevesinde malları alıcıya sunabilmesi açısından gerekli olabilen, ithalatın gerçekleştiği ülkede çıkarılan belgeleri ya da elektronik mesajları edinmesinde kendisine yardımcı olmak.</li>
+            </ul>
+
+
+
         </div>
-        <!-- About Area End -->
-        
-        <!-- Blog Area End -->
-    </main>
- @include('footer')
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Area End -->
+
+<!-- Blog Area End -->
+</main>
+@include('footer')

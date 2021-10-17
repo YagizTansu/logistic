@@ -35,7 +35,7 @@ Route::get('/minivan', function () {
 Route::get('/proje', function () {
     return view('hizmetler/proje');  
 });
-Route::get('/depolama', function () {
+Route::get('/fuar-lojistik', function () {
     return view('hizmetler/depolama');  
 });
 

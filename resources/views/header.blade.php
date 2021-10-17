@@ -8,7 +8,6 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome-all.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
@@ -44,8 +43,8 @@
                                 <div class="row d-flex justify-content-between align-items-center">
                                     <div class="header-info-left">
                                         <ul>
-                                            <li><span class="contact-info__icon "><i class="ti-tablet"></i></span>+99 (0) 101 0000 888</li>
-                                            <li><span class="contact-info__icon"><i class="ti-email"></i></span> globalgate@gmail.com</li>
+                                            <li><span class="contact-info__icon "><i class="ti-tablet"></i></span>+90 232 683 04 00</li>
+                                            <li><span class="contact-info__icon"><i class="ti-email"></i></span>sales-team@tr-globalgate.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -68,7 +67,7 @@
                         <div class="row align-items-center">
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
-                                <div class="logo logo-padding">
+                                <div class="logo">
                                     <a href="/anasayfa"><img src="{{asset('assets/img/logo/logo2.png')}}" alt=""></a>
                                 </div>
                             </div>
@@ -93,16 +92,14 @@
                                                         <li><a href="/denizyolu">Denizyolu Taşımacığı</a></li>
                                                         <li><a href="/minivan">Minivan Taşımacılığı</a></li>
                                                         <li><a href="/proje">Proje Taşımacılığı</a></li>
-                                                        <li><a href="/depolama">Depolama</a></li>
+                                                        <li><a href="/fuar-lojistik">Fuar Lojistiği</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="/incoterms">SEKTÖREL BİLGİLER</a>
                                                     <ul class="submenu">
                                                         <li><a href="incoterms">Incoterms</a></li>
-                                                        <li><a href="/dis-ticaret-kisaltmalari">Dış Ticaret Kısaltmaları</a></li>
                                                         <li><a href="/uld-ölcüleri">ULD ölçüleri</a></li>
                                                         <li><a href="/konteyner-ölcüleri">Konteyner ölçüleri</a></li>
-                                                        <li><a href="/kargo-hacim-hesaplama">Kargo hacim hesaplama</a></li>
                                                         <li><a href="/tir-ölcüleri">Tır ölçüleri</a></li>
 
                                                     </ul>
@@ -113,7 +110,7 @@
 
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="/iletisim" class="btn-style">İLETİŞİM/TEKLİF AL</a>
+                                        <a href="/iletisim" class="btn-style" style="color: white;">İLETİŞİM/TEKLİF AL</a>
                                     </div>
                                 </div>
                             </div>
